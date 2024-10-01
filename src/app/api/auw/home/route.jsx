@@ -87,7 +87,7 @@ export async function GET(request) {
                     "category_id": "12",
                     "image_type": "paper",
                     "page": "1",
-                    "image": "https:\/\/epaperwmimg.amarujala.com\/2024\/07\/25\/dl\/01\/hdimage.jpg"
+                    "image": "https://files.magzter.com/resize/magazine/1632498964/1674870857/view/3.jpg"
                 },
                 {
                     "id": "002",
@@ -97,7 +97,7 @@ export async function GET(request) {
                     "category_id": "12",
                     "image_type": "paper",
                     "page": "2",
-                    "image": "https:\/\/epaperwmimg.amarujala.com\/2024\/07\/25\/dl\/02\/hdimage.jpg"
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI61k_F3ZYeAjPl4E41ya-jeVO1MpJC8zhJA&s"
                 },
                 {
                     "id": "003",
@@ -107,7 +107,7 @@ export async function GET(request) {
                     "category_id": "12",
                     "image_type": "paper",
                     "page": "3",
-                    "image": "https:\/\/epaperwmimg.amarujala.com\/2024\/07\/25\/dl\/03\/hdimage.jpg"
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5EQlfH81-MPkHeFo_CQjdChD12QRoWi5xw&s"
                 },
                 {
                     "id": "004",
@@ -117,7 +117,7 @@ export async function GET(request) {
                     "category_id": "12",
                     "image_type": "paper",
                     "page": "4",
-                    "image": "https:\/\/epaperwmimg.amarujala.com\/2024\/07\/25\/dl\/04\/hdimage.jpg"
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OdDB1G5cwko2kWQ4n-zSiaSIU6w0iZIt3w&s"
                 },
                 {
                     "id": "005",
@@ -127,7 +127,7 @@ export async function GET(request) {
                     "category_id": "12",
                     "image_type": "paper",
                     "page": "5",
-                    "image": "https:\/\/epaperwmimg.amarujala.com\/2024\/07\/25\/dl\/05\/hdimage.jpg"
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5EQlfH81-MPkHeFo_CQjdChD12QRoWi5xw&s"
                 }
             ]
         },
