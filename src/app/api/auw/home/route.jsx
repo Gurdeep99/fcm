@@ -69,68 +69,6 @@ export async function GET(request) {
                 }
             ]
         },
-        {
-            "component_name": "e_paper",
-            "component_id": "5",
-            "type": "Text",
-            "category_name": "e-paper",
-            "category_id": "13",
-            "category_icon": "",
-            "title": "पढ़ें अमर उजाला ई-पेपरर",
-            "priority": 5,
-            "dataItem": [
-                {
-                    "id": "001",
-                    "type": "Text",
-                    "date": "25 July 2024",
-                    "category": "paper",
-                    "category_id": "12",
-                    "image_type": "paper",
-                    "page": "1",
-                    "image": "https://files.magzter.com/resize/magazine/1632498964/1674870857/view/3.jpg"
-                },
-                {
-                    "id": "002",
-                    "type": "Text",
-                    "date": "25 July 2024",
-                    "category": "paper",
-                    "category_id": "12",
-                    "image_type": "paper",
-                    "page": "2",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI61k_F3ZYeAjPl4E41ya-jeVO1MpJC8zhJA&s"
-                },
-                {
-                    "id": "003",
-                    "type": "Text",
-                    "date": "25 July 2024",
-                    "category": "paper",
-                    "category_id": "12",
-                    "image_type": "paper",
-                    "page": "3",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5EQlfH81-MPkHeFo_CQjdChD12QRoWi5xw&s"
-                },
-                {
-                    "id": "004",
-                    "type": "Text",
-                    "date": "25 July 2024",
-                    "category": "paper",
-                    "category_id": "12",
-                    "image_type": "paper",
-                    "page": "4",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OdDB1G5cwko2kWQ4n-zSiaSIU6w0iZIt3w&s"
-                },
-                {
-                    "id": "005",
-                    "type": "Text",
-                    "date": "25 July 2024",
-                    "category": "paper",
-                    "category_id": "12",
-                    "image_type": "paper",
-                    "page": "5",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5EQlfH81-MPkHeFo_CQjdChD12QRoWi5xw&s"
-                }
-            ]
-        },
         // {
         //     "component_name": "auto_slider",
         //     "component_id": "1",
@@ -368,7 +306,68 @@ export async function GET(request) {
                 }
             ]
         },
-        
+        {
+            "component_name": "e_paper",
+            "component_id": "5",
+            "type": "Text",
+            "category_name": "e-paper",
+            "category_id": "13",
+            "category_icon": "",
+            "title": "पढ़ें अमर उजाला ई-पेपरर",
+            "priority": 5,
+            "dataItem": [
+                {
+                    "id": "001",
+                    "type": "Text",
+                    "date": "25 July 2024",
+                    "category": "paper",
+                    "category_id": "12",
+                    "image_type": "paper",
+                    "page": "1",
+                    "image": "https://files.magzter.com/resize/magazine/1632498964/1674870857/view/3.jpg"
+                },
+                {
+                    "id": "002",
+                    "type": "Text",
+                    "date": "25 July 2024",
+                    "category": "paper",
+                    "category_id": "12",
+                    "image_type": "paper",
+                    "page": "2",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI61k_F3ZYeAjPl4E41ya-jeVO1MpJC8zhJA&s"
+                },
+                {
+                    "id": "003",
+                    "type": "Text",
+                    "date": "25 July 2024",
+                    "category": "paper",
+                    "category_id": "12",
+                    "image_type": "paper",
+                    "page": "3",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5EQlfH81-MPkHeFo_CQjdChD12QRoWi5xw&s"
+                },
+                {
+                    "id": "004",
+                    "type": "Text",
+                    "date": "25 July 2024",
+                    "category": "paper",
+                    "category_id": "12",
+                    "image_type": "paper",
+                    "page": "4",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OdDB1G5cwko2kWQ4n-zSiaSIU6w0iZIt3w&s"
+                },
+                {
+                    "id": "005",
+                    "type": "Text",
+                    "date": "25 July 2024",
+                    "category": "paper",
+                    "category_id": "12",
+                    "image_type": "paper",
+                    "page": "5",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5EQlfH81-MPkHeFo_CQjdChD12QRoWi5xw&s"
+                }
+            ]
+        },
         {
             "component_name": "text_story",
             "component_id": "6",
@@ -835,31 +834,31 @@ export async function GET(request) {
                     "id": "1",
                     "type": "slider",
                     "published": "31 Jul 2024",
-                    "image": "https:\/\/epaperimg1.amarujala.com\/2024\/07\/24\/ud\/dl\/01\/hdimage.jpg"
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzFydk48z4-3VsTFeWpppJly4MrE3IRaQNhQ&s"
                 },
                 {
                     "id": "2",
                     "type": "slider",
                     "published": "31 Jul 2024",
-                    "image": "https:\/\/epaperimg1.amarujala.com\/2024\/07\/24\/ud\/dl\/02\/hdimage.jpg"
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Zrfi_gr93R1s56CJ0wghvsMe3-n7z8ym1A&s"
                 },
                 {
                     "id": "3",
                     "type": "slider",
                     "published": "31 Jul 2024",
-                    "image": "https:\/\/epaperimg1.amarujala.com\/2024\/07\/24\/ud\/dl\/03\/hdimage.jpg"
+                    "image": "https://files.magzter.com/resize/magazine/1632503793/1713490791/view/1.jpg"
                 },
                 {
                     "id": "4",
                     "type": "slider",
                     "published": "31 Jul 2024",
-                    "image": "https:\/\/epaperimg1.amarujala.com\/2024\/07\/24\/ud\/dl\/04\/hdimage.jpg"
+                    "image": "https://files.magzter.com/resize/magazine/1632503793/1715823611/view/3.jpg"
                 },
                 {
                     "id": "5",
                     "type": "slider",
                     "published": "31 Jul 2024",
-                    "image": "https:\/\/epaperimg1.amarujala.com\/2024\/07\/24\/ud\/dl\/05\/hdimage.jpg"
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ28ICTEGz_9_h8sreiN6ZarP7J3F0qo32Kug&s"
                 }
             ]
         },
