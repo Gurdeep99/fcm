@@ -93,7 +93,7 @@ export async function GET(request) {
             "category_name": "Education",
             "category_id": "13",
             "category_icon": "",
-            "title": "फ़ोटो स्टोरीज",
+            "title": "वीडियो शॉट्स",
             "priority": 8,
             "dataItem": [
                 {
