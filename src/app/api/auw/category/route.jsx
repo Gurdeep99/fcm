@@ -28,7 +28,7 @@ export async function GET(request) {
         "items": [
           {
             "_id": {
-                "$oid": "6207a21d065fe270c516282e"
+                "oid": "6207a21d065fe270c516282e"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "आपके लिए",
@@ -46,7 +46,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c516282e1"
+                "oid": "6207a21d065fe270c516282e1"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "देश",
@@ -64,7 +64,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c516283d"
+                "oid": "6207a21d065fe270c516283d"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "दुनिया",
@@ -82,7 +82,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c516282f"
+                "oid": "6207a21d065fe270c516282f"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "मनोरंजन",
@@ -100,7 +100,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162830"
+                "oid": "6207a21d065fe270c5162830"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "क्रिकेट",
@@ -118,7 +118,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162833"
+                "oid": "6207a21d065fe270c5162833"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "कारोबार",
@@ -136,7 +136,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162831"
+                "oid": "6207a21d065fe270c5162831"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "नौकरी",
@@ -154,7 +154,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162832"
+                "oid": "6207a21d065fe270c5162832"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "शिक्षा",
@@ -172,7 +172,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162834"
+                "oid": "6207a21d065fe270c5162834"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "टेक्नोलॉजी",
@@ -190,7 +190,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162835"
+                "oid": "6207a21d065fe270c5162835"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "ऑटो",
@@ -208,7 +208,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162836"
+                "oid": "6207a21d065fe270c5162836"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "ज्योतिष",
@@ -226,7 +226,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162837"
+                "oid": "6207a21d065fe270c5162837"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "खेल",
@@ -244,7 +244,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162838"
+                "oid": "6207a21d065fe270c5162838"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "हेल्थ एंड फिटनेस",
@@ -262,7 +262,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c5162839"
+                "oid": "6207a21d065fe270c5162839"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "फैशन",
@@ -280,7 +280,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c516283a"
+                "oid": "6207a21d065fe270c516283a"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "शक्ति",
@@ -298,7 +298,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c516283b"
+                "oid": "6207a21d065fe270c516283b"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "आस्था",
@@ -316,7 +316,7 @@ export async function GET(request) {
         },
         {
             "_id": {
-                "$oid": "6207a21d065fe270c516283c"
+                "oid": "6207a21d065fe270c516283c"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "बॉलीवुड",
