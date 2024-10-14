@@ -78,6 +78,73 @@ export async function GET(request) {
           ]
         },
         {
+          "component_name": "special_coverage",
+          "component_id": "17",
+          "type": "Video",
+          "category_name": "Special Coverage",
+          "category_id": "12",
+          "category_icon": "",
+          "title": "विशेष कवरेज",
+          "priority": 18,
+          "dataItem": [
+              {
+                  "id": "001",
+                  "type": "Video",
+                  "title": "17 वर्षीय ग्रैंडमास्टर डी गुकेश ने कैंडिडेट्स शतरंज टूर्नामेंट जीता, जिससे वह सबसे कम उम्र के विश्व शतरंज चैंपियनशिप चैलेंजर बने",
+                  "sub_title": "टैकनोलजी खबर",
+                  "date": "23 Apr 2024",
+                  "category": "Technology",
+                  "category_id": "12",
+                  "image_type": "big",
+                  "button_title": "हमारा कवरेज देखें",
+                  "duratuin": "06:30",
+                  "icon": "",
+                  "image": "https:\/\/pbs.twimg.com\/media\/GLup1oLWkAASw9u.jpg",
+                  "extra_coverage": "अधिक कवरेज"
+              },
+              {
+                  "itemList": [
+                      {
+                          "id": "002",
+                          "type": "Video",
+                          "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
+                          "sub_title": "टैकनोलजी खबर",
+                          "date": "23 Apr 2024",
+                          "category": "Technology",
+                          "category_id": "12",
+                          "image_type": "small",
+                          "duratuin": "06:30",
+                          "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/04\/14\/whatsapp_78050575dc02ba95487e3192c6498f79.jpeg"
+                      },
+                      {
+                          "id": "003",
+                          "type": "Video",
+                          "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
+                          "sub_title": "टैकनोलजी खबर",
+                          "date": "23 Apr 2024",
+                          "category": "Technology",
+                          "category_id": "12",
+                          "image_type": "small",
+                          "duratuin": "08:30",
+                          "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/05\/16\/use-of-ai-in-office_139f34ed8f913b03f65d8d0e16cfd43d.jpeg"
+                      },
+                      {
+                          "id": "004",
+                          "type": "Video",
+                          "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
+                          "sub_title": "टैकनोलजी खबर",
+                          "date": "23 Apr 2024",
+                          "category": "Technology",
+                          "category_id": "12",
+                          "image_type": "small",
+                          "duratuin": "02:30",
+                          "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/07\/08\/ai_5b09a9da92683f13c3d02d2d729aca22.jpeg"
+                      }
+                  ]
+              }
+          ]
+      },
+        {
           "component_name": "e_paper",
           "component_id": "5",
           "type": "Text",
