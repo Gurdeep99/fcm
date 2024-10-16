@@ -29,7 +29,7 @@ export async function GET(request) {
           "component_id": "1",
           "title_small": "DGP जेल की निर्मम हत्या",
           "title": "कांच की बोतल से रेत डाला लोहिया का गला, आतंकी संगठन TRF ने ली जिम्मेदारी",
-          "image": "https://staticimg.amarujala.com/assets/images/2024/07/22/parliament-monsoon-session-live_6b559304d548c6b9a1daaad0c9479bc8.jpeg",
+          "image": "https://www.koimoi.com/wp-content/new-galleries/2020/12/sara-ali-khan-says-shes-turned-greedy-after-atrangi-re-0001.jpg",
           "priority": 0,
           "dataItem": [
             {
