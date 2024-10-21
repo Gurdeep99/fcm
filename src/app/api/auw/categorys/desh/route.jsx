@@ -23,52 +23,11 @@ export async function GET(request) {
     // Your API data if authentication succeeds
     const data = {
         "main": {
-          "title": "Shabad Khoj",
-          "title_hn": "शब्द खोज",
+          "title": "desh",
+          "title_hn": "देश",
           "following": "23"
         },
         "feed": [
-          {
-            "component_name": "auto_slider",
-            "component_id": "1",
-            "dataItem": [
-              {
-                "id": "0001",
-                "title": "बलिया वसूली कांड: सीएम का सख्त एक्शन... बदल डाला थाने और चौकी का स्टाफ, एसपी-एएसपी पर गिरी गाज; सीओ निलंबित",
-                "date": "23 Apr 2024",
-                "category": "टेक्नोलॉजी",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/07/26/ballia-illegal-recovery_7ff6601a6d6727edec447932eabd09f2.jpeg?w=674&dpr=1.0"
-              },
-              {
-                "id": "0002",
-                "title": "SC: यूपी सरकार ने बताया क्यों लागू किया था कांवड़ मार्ग पर नामपट्टिका का आदेश, सुप्रीम कोर्ट में दिया हलफनामा",
-                "date": "23 Apr 2024",
-                "category": "टेक्नोलॉजी",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/07/10/kanwar-yatra_eb4888fca6667ef306c7dfbab6909380.jpeg?w=674&dpr=1.0"
-              },
-              {
-                "id": "0003",
-                "title": "Parliament Monsoon Session Live: लोकसभा में कई मुद्दों पर भारी हंगामा, कार्यवाही थोड़ी देर के लिए की गई स्थगित",
-                "date": "23 Apr 2024",
-                "category": "टेक्नोलॉजी",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/07/22/parliament-monsoon-session-live_6b559304d548c6b9a1daaad0c9479bc8.jpeg?w=674&dpr=1.0"
-              },
-              {
-                "id": "0004",
-                "title": "AI: समाचार के लिए एआई का उपयोग वैश्विक रूप से चिंतनीय; सर्वे में सामने आई लोगों का भरोसा कम होने की बात...",
-                "date": "23 Apr 2024",
-                "category": "टेक्नोलॉजी",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/07/07/data-breach_39c0d9ebde6e9439299082d6c67c52fe.jpeg"
-              },
-              {
-                "id": "0005",
-                "title": "AI: समाचार के लिए एआई का उपयोग वैश्विक रूप से चिंतनीय; सर्वे में सामने आई लोगों का भरोसा कम होने की बात...",
-                "date": "23 Apr 2024",
-                "category": "टेक्नोलॉजी",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/07/08/ai_5b09a9da92683f13c3d02d2d729aca22.jpeg"
-              }
-            ]
-          },
           {
             "component_name": "video_story",
             "component_id": "2",
