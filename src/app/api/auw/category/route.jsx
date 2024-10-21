@@ -22,36 +22,17 @@ export async function GET(request) {
   
     // Your API data if authentication succeeds
     const data =  {
-        "_id": "61ea6079dabaef075e38ce92",
-        "title": "hamburger categories",
+        "_id": "5a6312174f1c1b6f268b55f8",
+        "title": "Amarujala main menu",
         "status": "enable",
         "items": [
           {
             "_id": {
-                "oid": "6207a21d065fe270c516282e"
-            },
-            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "आपके लिए",
-            "key": "For You",
-            "link": "/india-news",
-            "status": "enable",
-            "type": "same-page",
-            "text_color": "#000000",
-            "bg_color": "#000000",
-            "others": "",
-            "sub_menu_slug": "",
-            "label": "",
-            "title_hn": "",
-            "priority": 0
-        },
-        {
-            "_id": {
-                "oid": "6207a21d065fe270c516282e1"
+              "$oid": "65f972b8700fa16f32047d79"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "देश",
-            "key": "desh",
-            "link": "/india-news",
+            "link": "/india-news?src=mainmenu",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
@@ -59,17 +40,35 @@ export async function GET(request) {
             "others": "",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
+            "title_hn": "देश",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
             "priority": 0
-        },
-        {
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c516283d"
+              "$oid": "65f972b8700fa16f32047d7a"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "दुनिया",
-            "key": "duniya",
-            "link": "/world",
+            "titles": "खेलो और जीतो",
+            "link": "/games/spin-the-wheel",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "PLAY",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 1
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d7d"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "शहर और राज्य",
+            "link": "/city-and-states?src=mainmenu",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
@@ -77,143 +76,269 @@ export async function GET(request) {
             "others": "",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
-            "priority": 1
-        },
-        {
+            "title_hn": "शहर और राज्य",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 4
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c516282f"
+              "$oid": "65f972b8700fa16f32047d7e"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "मनोरंजन",
-            "key": "entertainment",
-            "link": "/entertainment",
+            "link": "/entertainment?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "entertainment-menu",
+            "label": "",
+            "title_hn": "मनोरंजन",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 5
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d7f"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "चुनाव 2024",
+            "link": "/election/",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
             "bg_color": "#000000",
             "others": "",
             "sub_menu_slug": "",
-            "label": "",
-            "title_hn": "",
-            "priority": 2
-        },
-        {
+            "label": "nonamp",
+            "title_hn": "चुनाव 2024",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 6
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c5162830"
+              "$oid": "65f972b8700fa16f32047d80"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "क्रिकेट",
-            "key": "cricket",
-            "link": "/cricket",
+            "link": "/cricket?src=mainmenu",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
             "bg_color": "#000000",
             "others": "",
-            "sub_menu_slug": "",
+            "sub_menu_slug": "cricket-menu",
             "label": "",
-            "title_hn": "",
-            "priority": 3
-        },
-        {
-            "_id": {
-                "oid": "6207a21d065fe270c5162833"
-            },
-            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "कारोबार",
-            "key": "business",
-            "link": "/business",
-            "status": "enable",
-            "type": "same-page",
-            "text_color": "#000000",
-            "bg_color": "#000000",
-            "others": "",
-            "sub_menu_slug": "",
-            "label": "",
-            "title_hn": "",
-            "priority": 4
-        },
-        {
-            "_id": {
-                "oid": "6207a21d065fe270c5162831"
-            },
-            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "नौकरी",
-            "key": "jobs",
-            "link": "/jobs",
-            "status": "enable",
-            "type": "same-page",
-            "text_color": "#000000",
-            "bg_color": "#000000",
-            "others": "",
-            "sub_menu_slug": "",
-            "label": "",
-            "title_hn": "",
-            "priority": 5
-        },
-        {
-            "_id": {
-                "oid": "6207a21d065fe270c5162832"
-            },
-            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "शिक्षा",
-            "key": "education",
-            "link": "/education",
-            "status": "enable",
-            "type": "same-page",
-            "text_color": "#000000",
-            "bg_color": "#000000",
-            "others": "",
-            "sub_menu_slug": "",
-            "label": "",
-            "title_hn": "",
-            "priority": 6
-        },
-        {
-            "_id": {
-                "oid": "6207a21d065fe270c5162834"
-            },
-            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "टेक्नोलॉजी",
-            "key": "technology",
-            "link": "/technology",
-            "status": "enable",
-            "type": "same-page",
-            "text_color": "#000000",
-            "bg_color": "#000000",
-            "others": "",
-            "sub_menu_slug": "",
-            "label": "",
-            "title_hn": "",
+            "title_hn": "क्रिकेट",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
             "priority": 7
-        },
-        {
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c5162835"
-            },
-            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "ऑटो",
-            "key": "automobiles",
-            "link": "/automobiles",
-            "status": "enable",
-            "type": "same-page",
-            "text_color": "#000000",
-            "bg_color": "#000000",
-            "others": "",
-            "sub_menu_slug": "",
-            "label": "",
-            "title_hn": "",
-            "priority": 8
-        },
-        {
-            "_id": {
-                "oid": "6207a21d065fe270c5162836"
+              "$oid": "65f972b8700fa16f32047d81"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "ज्योतिष",
-            "key": "astrology",
-            "link": "/astrology",
+            "link": "/astrology?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "ज्योतिष",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 8
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d82"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "दुनिया",
+            "link": "/world?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "दुनिया",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 9
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d83"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "नौकरी",
+            "link": "/jobs?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "jobs-category",
+            "label": "",
+            "title_hn": "नौकरी",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 10
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d84"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "शिक्षा",
+            "link": "/education?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "शिक्षा",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 11
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d85"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "टेक",
+            "link": "/technology?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "technology-menu",
+            "label": "",
+            "title_hn": "टेक्नॉलॉजी",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 12
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d86"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "ऑटो",
+            "link": "/automobiles?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "automobiles-menu",
+            "label": "",
+            "title_hn": "ऑटोमोबाइल",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 13
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d87"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "कारोबार",
+            "link": "/business?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "business-menu",
+            "label": "",
+            "title_hn": "कारोबार",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 14
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d88"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "विशेष",
+            "link": "/special-stories?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "विशेष",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 15
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d89"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "आवाज",
+            "link": "/podcast?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "nonamp",
+            "title_hn": "आवाज",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 16
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d8a"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "ट्रेंडिंग",
+            "link": "/recommended",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "nonamp",
+            "title_hn": "ट्रेंडिंग",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 17
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d8b"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "वीडियो",
+            "link": "/video",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "वीडियो",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 18
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d8c"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "वेब स्टोरीज",
+            "link": "/web-stories?src=mainmenu",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
@@ -222,70 +347,106 @@ export async function GET(request) {
             "sub_menu_slug": "",
             "label": "",
             "title_hn": "",
-            "priority": 9
-        },
-        {
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 19
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c5162837"
+              "$oid": "65f972b8700fa16f32047d8d"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "न्यूज ब्रीफ",
+            "link": "/news-briefs?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "न्यूज ब्रीफ",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 20
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d8e"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "एक्सक्लूसिव",
+            "link": "/tags/exclusive?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 21
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d8f"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "फोटो",
+            "link": "/photo-gallery?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "फोटो",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 22
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d90"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "खेल",
-            "key": "sports",
-            "link": "/sports",
+            "link": "/sports?src=mainmenu",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
             "bg_color": "#000000",
             "others": "",
-            "sub_menu_slug": "",
+            "sub_menu_slug": "sports-menu",
             "label": "",
-            "title_hn": "",
-            "priority": 10
-        },
-        {
+            "title_hn": "खेल",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 23
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c5162838"
+              "$oid": "65f972b8700fa16f32047d91"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "हेल्थ एंड फिटनेस",
-            "key": "lifestyle-fitness",
-            "link": "/lifestyle/fitness",
+            "titles": "लाइफ़स्टाइल",
+            "link": "/lifestyle?src=mainmenu",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
             "bg_color": "#000000",
             "others": "",
-            "sub_menu_slug": "",
+            "sub_menu_slug": "life-style-new",
             "label": "",
-            "title_hn": "",
-            "priority": 11
-        },
-        {
+            "title_hn": "लाइफ़स्टाइल",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 24
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c5162839"
-            },
-            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "फैशन",
-            "key": "fashion",
-            "link": "/fashion",
-            "status": "enable",
-            "type": "same-page",
-            "text_color": "#000000",
-            "bg_color": "#000000",
-            "others": "",
-            "sub_menu_slug": "",
-            "label": "",
-            "title_hn": "",
-            "priority": 12
-        },
-        {
-            "_id": {
-                "oid": "6207a21d065fe270c516283a"
+              "$oid": "65f972b8700fa16f32047d92"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "शक्ति",
-            "key": "shakti",
-            "link": "/shakti",
+            "link": "/shakti?src=mainmenu",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
@@ -293,17 +454,17 @@ export async function GET(request) {
             "others": "",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
-            "priority": 13
-        },
-        {
+            "title_hn": "शक्ति",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 25
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c516283b"
+              "$oid": "65f972b8700fa16f32047d93"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "आस्था",
-            "key": "spirituality",
-            "link": "/spirituality",
+            "link": "/spirituality?src=mainmenu",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
@@ -311,17 +472,179 @@ export async function GET(request) {
             "others": "",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
-            "priority": 14
-        },
-        {
+            "title_hn": "आस्था",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 26
+          },
+          {
             "_id": {
-                "oid": "6207a21d065fe270c516283c"
+              "$oid": "65f972b8700fa16f32047d94"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "बॉलीवुड",
-            "key": "bollywood",
-            "link": "/entertainment/bollywood",
+            "titles": "क्राइम",
+            "link": "/crime?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "क्राइम",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 27
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d95"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "काव्य",
+            "link": "/kavya?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "काव्य",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 28
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d96"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "विचार",
+            "link": "/columns?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "विचार",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 29
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d98"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "हटके ख़बर",
+            "link": "/bizarre-news?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "हटके ख़बर",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 31
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d99"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "हंसी-ठट्ठा",
+            "link": "/humour?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "हंसी-ठट्ठा",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 32
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d9a"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "कृषि",
+            "link": "/agriculture?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "कृषि",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 33
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d9b"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "मौसम",
+            "link": "/tags/weather-forecast-today-in-india?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "nonamp",
+            "title_hn": "मौसम",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 34
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d9c"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "पोल",
+            "link": "/poll?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "nonamp",
+            "title_hn": "पोल",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 35
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d9d"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "लेटेस्ट जॉब्स",
+            "link": "/latest-jobs",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "latest-jobs-menu",
+            "label": "",
+            "title_hn": "Latest Jobs",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/desh",
+            "priority": 36
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d9e"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "शॉर्ट वीडियोज",
+            "link": "/video-shots",
             "status": "enable",
             "type": "same-page",
             "text_color": "#000000",
@@ -330,20 +653,38 @@ export async function GET(request) {
             "sub_menu_slug": "",
             "label": "",
             "title_hn": "",
-            "priority": 15
-        }
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
+            "priority": 37
+          },
+          {
+            "_id": {
+              "$oid": "65f972b8700fa16f32047d9f"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "Rewards Campaign",
+            "link": "/rewards-program-campaigns",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
+            "priority": 0
+          }
         ],
         "image": null,
-        "created_by": "61bc2e5844336c57c1031b89",
-        "slug": "hamburger-categories",
+        "created_by": "59afe9f84f1c1bfb7f8b456c",
+        "slug": "amarujala-main-menu",
         "client_id": "57398d264f1c1b0016ac7a05",
         "property_id": "57398d264f1c1b0016ac7a02",
-        "updated_at": "2022-02-12T12:08:53.000000Z",
-        "created_at": "2022-01-21T07:27:53.000000Z",
-        "priority": 0,
-        "updated_by": "59afe9f84f1c1bfb7f8b456c"
-    };
-  
+        "updated_at": "2024-05-24T10:42:06.040000Z",
+        "created_at": "2018-01-20T09:55:35.447000Z",
+        "updated_by": "62de88450c91973da061da93",
+        "priority": 0
+      }
     return new Response(JSON.stringify(data), {
       status: 200,
       headers: {
