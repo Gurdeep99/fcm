@@ -58,7 +58,7 @@ export async function GET(request) {
             "others": "PLAY",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
+            "title_hn": "खेलो और जीतो",
             "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
             "priority": 1
           },
@@ -346,7 +346,7 @@ export async function GET(request) {
             "others": "",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
+            "title_hn": "वेब स्टोरीज",
             "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
             "priority": 19
           },
@@ -382,7 +382,7 @@ export async function GET(request) {
             "others": "",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
+            "title_hn": "एक्सक्लूसिव",
             "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
             "priority": 21
           },
@@ -652,7 +652,7 @@ export async function GET(request) {
             "others": "",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
+            "title_hn": "शॉर्ट वीडियोज",
             "api": "https://fcm.gurdeep.net/api/auw/categorys/duniya",
             "priority": 37
           },
@@ -670,7 +670,7 @@ export async function GET(request) {
             "others": "",
             "sub_menu_slug": "",
             "label": "",
-            "title_hn": "",
+            "title_hn": "Rewards Campaign",
             "api": "https://fcm.gurdeep.net/api/auw/categorys/sahar_rajya",
             "priority": 0
           }
