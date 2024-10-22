@@ -29,6 +29,63 @@ export async function GET(request) {
         },
         "feed": [
           {
+            "component_name": "podcast_card",
+            "component_id": "13",
+            "type": "slider",
+            "category_name": "sports",
+            "category_id": "14",
+            "category_icon": "",
+            "title": "हाल का पॉडकास्ट",
+            "priority": 14,
+            "dataItem": [
+                {
+                    "id": "1",
+                    "image": "https://beerbiceps.com/wp-content/uploads/2023/02/257-Audio-Thumb-copy-1024x1024.jpg",
+                    "type": "podcastList",
+                    "provider": "TRS",
+                    "episode": "Ep 322",
+                    "title": "राजर्षि नंदी भूत, प्रेत और असुरों के बारे में अपना अनुभव और ज्ञान साझा कर रहे हैं",
+                    "duration": "36m 12s"
+                },
+                {
+                    "id": "1",
+                    "image": "https://engage4more.com/blog/wp-content/uploads/2023/02/Navya-Naveli-Nanda-Engage4more-.png",
+                    "type": "podcastList",
+                    "provider": "Google",
+                    "episode": "Ep 01",
+                    "title": "नव्या नवेली नंदा एक भारतीय उद्यमी हैं जो भारत के पहले महिला स्वास्थ्य और कल्याण मंच, आरा हेल्थ की सह-संस्थापक और सीईओ हैं।",
+                    "duration": "26m 04s"
+                },
+                {
+                    "id": "1",
+                    "image": "https://images.podcastpage.io/fetch/https%3A%2F%2Fwww.omnycontent.com%2Fd%2Fprograms%2F4bb33704-615b-4054-aae9-ace500fd4197%2F53e60756-3661-453b-a87c-afb9008fb4b3%2Fimage.jpg%3Ft%3D1677747239%26size%3DLarge",
+                    "type": "podcastList",
+                    "provider": "bingepods",
+                    "episode": "Ep 18",
+                    "title": "स्वास्थ्य, कल्याण, कामुकता और बहुत कुछ... डॉ. क्यूटरस और मित्र इन प्रश्नों और बहुत कुछ का उत्तर देने के लिए यहां हैं!",
+                    "duration": "07m 02s"
+                },
+                {
+                    "id": "1",
+                    "image": "https://m.media-amazon.com/images/I/41FwWjiiURL._SL500_.jpg",
+                    "type": "podcastList",
+                    "provider": "Red FM",
+                    "episode": "Ep 781",
+                    "title": "इंडियन मर्डर मिस्ट्री",
+                    "duration": "10m 42s"
+                },
+                {
+                    "id": "1",
+                    "image": "https://im.idiva.com/content/2023/Jun/LEAD-93_649965a43d6b2.png",
+                    "type": "podcastList",
+                    "provider": "India News",
+                    "episode": "Ep 07",
+                    "title": "फालतू पॉडकास्ट",
+                    "duration": "17m 11s"
+                }
+            ]
+        },
+          {
             "component_name": "tech_review",
             "component_id": "4",
             "type": "Text",
