@@ -29,7 +29,7 @@ export async function GET(request) {
           "component_id": "1",
           "title_small": "DGP जेल की निर्मम हत्या",
           "title": "Haryana Result: चौधर की सियासत को अलविदा... चेहरे पर दांव कामयाब; बांगड़ की चौधर खत्म कर रोहतक लाए थे हुड्डा", 
-          "image": "https://staticimg.amarujala.com/assets/images/2024/10/16/jigra-vettaiyan-devara-vidya-ka-woh-wala-video-jagara-vatatayana-thavara-vakaka-vathaya-ka-va_266c9dd95f147c695bb95dc6fb714708.jpeg?w=674&dpr=1.0",
+          "image": "https://staticimg.amarujala.com/assets/images/2024/10/16/jigra-vettaiyan-devara-vidya-ka-woh-wala-video-jagara-vatatayana-thavara-vakaka-vathaya-ka-va_266c9dd95f147c695bb95dc6fb714708.jpeg",
           "priority": 0,
           "dataItem": [
             {
@@ -38,7 +38,7 @@ export async function GET(request) {
                       "itemList": [
                           {
                               "id": "01",
-                              "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/haryana-election_724903097796460902bbace48a2956b8.jpeg?w=200&dpr=1.0",
+                              "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/haryana-election_724903097796460902bbace48a2956b8.jpeg",
                               "title": "Haryana Result: चौधर की सियासत को अलविदा... चेहरे पर दांव कामयाब; बांगड़ की चौधर खत्म कर रोहतक लाए थे हुड्डा",
                               "category": "चुनाव",
                               "city": "Rohtak",
@@ -46,7 +46,7 @@ export async function GET(request) {
                 },
                           {
                               "id": "02",
-                               "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/haryana-election_724903097796460902bbace48a2956b8.jpeg?w=200&dpr=1.0",
+                               "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/haryana-election_724903097796460902bbace48a2956b8.jpeg",
                               "title": "Haryana Result: चौधर की सियासत को अलविदा... चेहरे पर दांव कामयाब; बांगड़ की चौधर खत्म कर रोहतक लाए थे हुड्डा",
                               "category": "चुनाव",
                               "city": "Rohtak",
@@ -60,7 +60,7 @@ export async function GET(request) {
               "itemList": [
                 {
                               "id": "01",
-                              "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/rahul-gandhi_15374c16b0368e44bffb96fe2bc436ec.jpeg?w=200&dpr=1.0",
+                              "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/rahul-gandhi_15374c16b0368e44bffb96fe2bc436ec.jpeg",
                               "title": "Rahul Gandhi: राहुल बोले- जम्मू-कश्मीर के लोगों का शुक्रिया, हरियाणा के अप्रत्याशित नतीजे का विश्लेषण कर रहे",
                               "category": "चुनाव",
                               "city": "India News",
@@ -68,7 +68,7 @@ export async function GET(request) {
                 },
                           {
                               "id": "02",
-                               "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/rahul-gandhi_15374c16b0368e44bffb96fe2bc436ec.jpeg?w=200&dpr=1.0",
+                               "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/rahul-gandhi_15374c16b0368e44bffb96fe2bc436ec.jpeg",
                               "title": "Rahul Gandhi: राहुल बोले- जम्मू-कश्मीर के लोगों का शुक्रिया, हरियाणा के अप्रत्याशित नतीजे का विश्लेषण कर रहे",
                               "category": "चुनाव",
                               "city": "India News",
@@ -160,13 +160,13 @@ export async function GET(request) {
               "id": "002",
               "category": "गायक",
               "title": "दुआ लिपा द्वारा लिखित और अभिनीत नई ऑल-इलेक्ट्रिक पॉर्श मैकन फिल्म देखें",
-              "image": "https://www.billboard.com/wp-content/uploads/2024/02/02-dua-lipa-grammy-red-carpet-2024-billboard-1548.jpg?w=942&h=623&crop=1"
+              "image": "https://www.billboard.com/wp-content/uploads/2024/02/02-dua-lipa-grammy-red-carpet-2024-billboard-1548.jpg"
             },
             {
               "id": "003",
               "category": "हॉलीवुड",
               "title": "रॉबर्ट डाउनी जूनियर का कहना है कि वह 'खुशी से' आयरन मैन के रूप में लौटेंगे: यह 'मेरे डीएनए का हिस्सा' है",
-              "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/03/11/USAT/72926919007-xxx-oscars-2024-dm-1824.jpg?width=300&height=489&fit=crop&format=pjpg&auto=webp"
+              "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/03/11/USAT/72926919007-xxx-oscars-2024-dm-1824.jpg"
             },
             {
               "id": "004",
