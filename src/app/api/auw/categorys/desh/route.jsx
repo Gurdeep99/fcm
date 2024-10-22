@@ -29,6 +29,30 @@ export async function GET(request) {
         },
         "feed": [
           {
+            "component_name": "TopHeadlines",
+            "component_id": "0",
+            "type": "Text",
+            "category_name": "Top Head lines",
+            "category_id": "13",
+            "category_icon": "",
+            "title": "शीर्ष सुर्खियाँ",
+            "priority": 19,
+            "dataItem": [
+                {
+                    "id": "001",
+                    "title": "लोकसभा चुनाव की तारीखों की घोषणा: जानें UP में कितने चरणों में होगी वोटिंग"
+                },
+                {
+                    "id": "002",
+                    "title": "वरुण गांधी को लेकर असमंजस में भाजपा | चुनाव से पहले बढ़ाएंगे पार्टी की मुश्किल"
+                },
+                {
+                    "id": "003",
+                    "title": "अरविन्द केजरीवाल के बाद Atishi ने बताया अब किसकी होगी गिरफ़्तारी? AAP के 4 नेता जाएंगे"
+                }
+            ]
+        },
+          {
             "component_name": "top_stories",
             "component_id": "3",
             "type": "Video",
