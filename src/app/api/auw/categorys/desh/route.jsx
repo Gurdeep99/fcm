@@ -89,30 +89,7 @@ export async function GET(request) {
           }
         ]
       },
-      {
-        "component_name": "TopHeadlines",
-        "component_id": "0",
-        "type": "Text",
-        "category_name": "Top Head lines",
-        "category_id": "13",
-        "category_icon": "",
-        "title": "शीर्ष सुर्खियाँ",
-        "priority": 19,
-        "dataItem": [
-          {
-            "id": "001",
-            "title": "लोकसभा चुनाव की तारीखों की घोषणा: जानें UP में कितने चरणों में होगी वोटिंग"
-          },
-          {
-            "id": "002",
-            "title": "वरुण गांधी को लेकर असमंजस में भाजपा | चुनाव से पहले बढ़ाएंगे पार्टी की मुश्किल"
-          },
-          {
-            "id": "003",
-            "title": "अरविन्द केजरीवाल के बाद Atishi ने बताया अब किसकी होगी गिरफ़्तारी? AAP के 4 नेता जाएंगे"
-          }
-        ]
-      },
+    
       {
         "component_name": "photo_story",
         "component_id": "8",
@@ -215,65 +192,89 @@ export async function GET(request) {
         ]
       },
       {
-        "component_name": "video_story",
-        "component_id": "2",
-        "type": "Video",
-        "category_name": "Technology",
-        "category_id": "12",
+        "component_name": "TopHeadlines",
+        "component_id": "0",
+        "type": "Text",
+        "category_name": "Top Head lines",
+        "category_id": "13",
         "category_icon": "",
-        "title": "टैकनोलजी",
+        "title": "शीर्ष सुर्खियाँ",
+        "priority": 19,
         "dataItem": [
           {
             "id": "001",
-            "type": "Video",
-            "title": "भारत डेटा और एआई उपनिवेशवाद का भय पैदा किए बिना तकनीकी लक्ष्य हासिल कर सकता है",
-            "sub_title": "टैकनोलजी खबर",
-            "date": "23 Apr 2024",
-            "category": "Technology",
-            "category_id": "12",
-            "image_type": "big",
-            "image": "https://staticimg.amarujala.com/assets/images/2024/07/08/ai_5b09a9da92683f13c3d02d2d729aca22.jpeg"
+            "title": "लोकसभा चुनाव की तारीखों की घोषणा: जानें UP में कितने चरणों में होगी वोटिंग"
           },
           {
-            "itemList": [
-              {
-                "id": "002",
-                "type": "Video",
-                "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
-                "sub_title": "टैकनोलजी खबर",
-                "date": "23 Apr 2024",
-                "category": "Technology",
-                "category_id": "12",
-                "image_type": "small",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/04/14/whatsapp_78050575dc02ba95487e3192c6498f79.jpeg"
-              },
-              {
-                "id": "003",
-                "type": "Video",
-                "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
-                "sub_title": "टैकनोलजी खबर",
-                "date": "23 Apr 2024",
-                "category": "Technology",
-                "category_id": "12",
-                "image_type": "small",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/05/16/use-of-ai-in-office_139f34ed8f913b03f65d8d0e16cfd43d.jpeg"
-              },
-              {
-                "id": "004",
-                "type": "Video",
-                "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-                "sub_title": "टैकनोलजी खबर",
-                "date": "23 Apr 2024",
-                "category": "Technology",
-                "category_id": "12",
-                "image_type": "small",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/07/08/ai_5b09a9da92683f13c3d02d2d729aca22.jpeg"
-              }
-            ]
+            "id": "002",
+            "title": "वरुण गांधी को लेकर असमंजस में भाजपा | चुनाव से पहले बढ़ाएंगे पार्टी की मुश्किल"
+          },
+          {
+            "id": "003",
+            "title": "अरविन्द केजरीवाल के बाद Atishi ने बताया अब किसकी होगी गिरफ़्तारी? AAP के 4 नेता जाएंगे"
           }
         ]
       },
-
+      {
+        "component_name": "text_story",
+        "component_id": "6",
+        "type": "Text",
+        "category_name": "technology",
+        "category_id": "13",
+        "category_icon": "",
+        "title": "एतिहासिक महाकथाए",
+        "priority": 6,
+        "dataItem": [
+            {
+                "id": "001",
+                "type": "Text",
+                "title": "मध्य प्रदेश कक्षा 10 और कक्षा 12 बोर्ड के सबसे पहल नतीजे कल, सबसे पहले अमर उजाला पर देखें नतीजे",
+                "sub_title": "शिक्षा खबर",
+                "date": "23 Apr 2024",
+                "category": "Education",
+                "category_id": "12",
+                "image_type": "big",
+                "image": "https://staticimg.amarujala.com/assets/images/2024/04/15/ipu-cet-2024_d28fdabae50cf46050cb13eaad87d48e.jpeg"
+            },
+            {
+                "itemList": [
+                    {
+                        "id": "002",
+                        "type": "Text",
+                        "title": "Rajasthan BSTC Result 2024: कब आएगा राजस्थान बीएसटीसी प्री डीएलएड परीक्षा का रिजल्ट, कहां से करना होगा चेक?",
+                        "sub_title": "शिक्षा खबर",
+                        "date": "23 Apr 2024",
+                        "category": "Education",
+                        "category_id": "12",
+                        "image_type": "small",
+                        "image": "https://staticimg.amarujala.com/assets/images/2024/04/24/computer-laptop-new_7f06e4e0397dd91dcf81c804f774a455.jpeg"
+                    },
+                    {
+                        "id": "003",
+                        "type": "Text",
+                        "title": "NIMCET 2024: निमसेट काउंसलिंग के पहले राउंड का सीट आवंटन परिणाम जारी, देखें महत्वपूर्ण तिथियों की लिस्ट",
+                        "sub_title": "शिक्षा खबर",
+                        "date": "23 Apr 2024",
+                        "category": "Education",
+                        "category_id": "12",
+                        "image_type": "small",
+                        "image": "https://staticimg.amarujala.com/assets/images/2024/04/26/nimcet-2024_d93aedf814105ada5b83938b4b063705.jpeg"
+                    },
+                    {
+                        "id": "004",
+                        "type": "Text",
+                        "title": "CUET UG Answer Key 2024: सीयूईटी यूजी उत्तर कुंजी के खिलाफ आज शाम पांच बजे तक दर्ज कराएं आपत्ति, ये रहा लिंक",
+                        "sub_title": "शिक्षा खबर",
+                        "date": "23 Apr 2024",
+                        "category": "Education",
+                        "category_id": "12",
+                        "image_type": "small",
+                        "image": "https://staticimg.amarujala.com/assets/images/2024/04/17/answer-key_6d84b4b046b15bf258f47bccdd2db99d.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
       {
         "component_name": "tech_review",
         "component_id": "4",
