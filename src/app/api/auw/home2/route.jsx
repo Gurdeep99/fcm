@@ -36,6 +36,8 @@ export async function GET(request) {
           "dataItem": [
               {
                   "id": "001",
+                  "headerTitle":"",
+                  "isLive":false,
                   "type": "Text",
                   "title": "Bengaluru: बंगलूरू हादसे में मृतकों का आंकड़ा पांच हुआ, डिप्टी CM बोले- अवैध निर्माण पर सख्त कार्रवाई करेंगे",
                   "sub_title": "India News",
@@ -49,6 +51,8 @@ export async function GET(request) {
               },
               {
                 "id": "002",
+                "headerTitle":"",
+                "isLive":false,
                 "type": "Video",
                 "title": "Kolkata Doctor Case: ममता सरकार ने डॉक्टरों की सुरक्षा के लिए टास्क फोर्स का किया गठन",
                 "sub_title": "India News",
@@ -65,6 +69,7 @@ export async function GET(request) {
                       {
                           "id": "003",
                           "type": "Text",
+                          "isLive":false,
                           "title": "Mumbai: पॉक्सो मामले में बढ़ी एकता कपूर और उनकी मां की मुश्किलें, गुरुवार को मुंबई पुलिस के सामने होंगी पेश",
                           "sub_title": "India News",
                           "date": "23 Oct 2024",
@@ -78,6 +83,7 @@ export async function GET(request) {
                       {
                           "id": "004",
                           "type": "Text",
+                          "isLive":true,
                           "title": "Jharkhand Elections: झामुमो ने 35 प्रत्याशियों की सूची जारी की, सीएम हेमंत सोरेन इस सीट से लड़ेंगे चुनाव",
                           "sub_title": "Election",
                           "date": "23 Oct 2024",
@@ -91,6 +97,7 @@ export async function GET(request) {
                       {
                           "id": "005",
                           "type": "Text",
+                          "isLive":false,
                           "title": "Gujarat: अमेरिका भेजने के नाम पर 40 लाख रुपये से ज्यादा की ठगी, वीजा सलाहकार और उसके भाई पर मामला दर्ज",
                           "sub_title": "India News",
                           "date": "23 Apr 2024",
@@ -106,7 +113,9 @@ export async function GET(request) {
               },
               {
                 "id": "006",
+                "headerTitle":"लेटेस्ट वीडियो",
                 "type": "Video",
+                "isLive":false,
                 "title": "Baba Siddique News: मुंबई पुलिस ने बाबा की सुरक्षा में तैनात सिपाही को किया निलंबित, जानें क्यों।",
                 "sub_title": "India News",
                 "date": "19 Oct 2024",
@@ -114,8 +123,7 @@ export async function GET(request) {
                 "category_id": "12",
                 "image_type": "big",
                 "isPremium":false,
-                "web_url":"https://www.amarujala.com/india-news/ekta-kapoor-and-her-mother-s-troubles-increase-in-pocso-case-will-appear-before-mumbai-police-on-thursday-2024-10-23",
-                          
+                "web_url":"https://www.amarujala.com/india-news/ekta-kapoor-and-her-mother-s-troubles-increase-in-pocso-case-will-appear-before-mumbai-police-on-thursday-2024-10-23",         
                 "image": "https://staticimg.amarujala.com/assets/images/2024/10/19/baba-siddique-news-mabii-palsa-na-bb-ka-sarakashha-ma-tanata-sapaha-ka-kaya-nalbta-jana-kaya_a6000443f86d8156d31596cfcb48ea63.jpeg"
             }
           ]
