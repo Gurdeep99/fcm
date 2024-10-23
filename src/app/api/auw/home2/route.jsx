@@ -228,7 +228,73 @@ export async function GET(request) {
         image:"https://staticimg.amarujala.com/assets/images/2024/10/22/israel-iran-war-pm-natanayaha-na-iirana-para-hamal-ka-bl-parata-tayara-kayaisa-bra-kasa-ka-kachha-naha-pata_b0eab4a72e7658dc7b733fa97dcb3d6c.jpeg",
       },
         ]
-      }
+      },{
+        "component_name": "top_stories",
+        "component_id": "3",
+        "type": "Video",
+        "category_name": "Top Stories",
+        "category_id": "12",
+        "category_icon": "",
+        "title": "स्टोरी",
+        "priority": 3,
+        "dataItem": [
+            {
+                "id": "1",
+                "type": "story",
+                "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
+                "sub_title": "बॉलीवुड खबर",
+                "date": "23 Apr 2024",
+                "category": "बॉलीवुड",
+                "category_id": "5",
+                "image_type": "small",
+                "image": "https://userimg.amarujala.com/2024/7/22/669df90aaeafd.jpeg"
+            },
+            {
+                "id": "2",
+                "type": "Video",
+                "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
+                "sub_title": "तकनीकी खबर",
+                "date": "23 Apr 2024",
+                "category": "तकनीकी",
+                "category_id": "9",
+                "image_type": "small",
+                "image": "https://userimg.amarujala.com/2019/4/23/5cbefc562281d.jpeg"
+            },
+            {
+                "id": "3",
+                "type": "Story",
+                "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
+                "sub_title": "तकनीकी खबर",
+                "date": "23 Apr 2024",
+                "category": "तकनीकी",
+                "category_id": "1",
+                "image_type": "small",
+                "image": "https://userimg.amarujala.com/2020/5/30/5ed1e68cc87eb.jpeg"
+            },
+            {
+                "id": "4",
+                "type": "Story",
+                "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
+                "sub_title": "तकनीकी खबर",
+                "date": "23 Apr 2024",
+                "category": "तकनीकी",
+                "category_id": "1",
+                "image_type": "small",
+                "image": "https://userimg.amarujala.com/2022/1/18/61e6cc2989b19.jpg"
+            },
+            {
+                "id": "5",
+                "type": "Story",
+                "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
+                "sub_title": "तकनीकी खबर",
+                "date": "23 Apr 2024",
+                "category": "तकनीकी",
+                "category_id": "1",
+                "image_type": "small",
+                "image": "https://userimg.amarujala.com/2020/10/14/5f868c0ebedc5.jpeg"
+            }
+        ]
+    }
       // {
       //   "component_name": "e_paper",
       //   "component_id": "5",
