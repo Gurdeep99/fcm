@@ -106,7 +106,7 @@ export async function GET(request) {
                 ]
             }
         ]
-     },
+    },
       {
         component_name: "text_story",
         component_id: "6",
