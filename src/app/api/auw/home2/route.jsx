@@ -25,59 +25,95 @@ export async function GET(request) {
     const data = {
       "home": [
         {
-          "component_name": "AaamneSamneScreen",
-          "component_id": "1",
-          "title_small": "DGP जेल की निर्मम हत्या",
-          "title": "Haryana Result: चौधर की सियासत को अलविदा... चेहरे पर दांव कामयाब; बांगड़ की चौधर खत्म कर रोहतक लाए थे हुड्डा", 
-          "image": "https://staticimg.amarujala.com/assets/images/2024/10/16/jigra-vettaiyan-devara-vidya-ka-woh-wala-video-jagara-vatatayana-thavara-vakaka-vathaya-ka-va_266c9dd95f147c695bb95dc6fb714708.jpeg",
-          "priority": 0,
+          "component_name": "text_story",
+          "component_id": "6",
+          "type": "Text",
+          "category_name": "technology",
+          "category_id": "13",
+          "category_icon": "",
+          "title": "एतिहासिक महाकथाए",
+          "priority": 6,
           "dataItem": [
-            {
-                      "id": "01",
-                      "title": "चुनाव परिणाम",
-                      "itemList": [
-                          {
-                              "id": "01",
-                              "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/haryana-election_724903097796460902bbace48a2956b8.jpeg",
-                              "title": "Haryana Result: चौधर की सियासत को अलविदा... चेहरे पर दांव कामयाब; बांगड़ की चौधर खत्म कर रोहतक लाए थे हुड्डा",
-                              "category": "चुनाव",
-                              "city": "Rohtak",
-                              "web_url": "https://www.amarujala.com/haryana/rohtak/haryana-election-result-bhupendra-singh-hooda-deependra-singh-news-in-hindi-2024-10-09?src=aamnesaamne&position=1&client=android",
-                },
-                          {
-                              "id": "02",
-                               "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/haryana-election_724903097796460902bbace48a2956b8.jpeg",
-                              "title": "Haryana Result: चौधर की सियासत को अलविदा... चेहरे पर दांव कामयाब; बांगड़ की चौधर खत्म कर रोहतक लाए थे हुड्डा",
-                              "category": "चुनाव",
-                              "city": "Rohtak",
-                              "web_url": "https://www.amarujala.com/haryana/rohtak/haryana-election-result-bhupendra-singh-hooda-deependra-singh-news-in-hindi-2024-10-09?src=aamnesaamne&position=1&client=android",
-                }
-              ]
+              {
+                  "id": "001",
+                  "type": "Text",
+                  "title": "Bengaluru: बंगलूरू हादसे में मृतकों का आंकड़ा पांच हुआ, डिप्टी CM बोले- अवैध निर्माण पर सख्त कार्रवाई करेंगे",
+                  "sub_title": "India News",
+                  "date": "23 Oct 2024",
+                  "category": "India News",
+                  "category_id": "12",
+                  "image_type": "big",
+                  "web_url":"https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+                  "image": "https://staticimg.amarujala.com/assets/images/2024/10/23/bengaluru_3eaee2893e63363e4ca6c3547980b80f.jpeg"
+              },
+              {
+                "id": "002",
+                "type": "Video",
+                "title": "Kolkata Doctor Case: ममता सरकार ने डॉक्टरों की सुरक्षा के लिए टास्क फोर्स का किया गठन",
+                "sub_title": "India News",
+                "date": "23 Oct 2024",
+                "category": "India News",
+                "category_id": "12",
+                "image_type": "big",
+                "web_url":"https://www.amarujala.com/video/india-news/kolkata-doctor-case-mamata-government-formed-task-force-for-the-safety-of-doctors-2024-10-23?src=&position=26",
+                "image": "https://staticimg.amarujala.com/assets/images/2024/10/23/kolkata-doctor-case_634c516063169c16065f31cda874a6fb.jpeg"
             },
-            {
-              "id": "02",
-              "title": "बयानबाजी",
-              "itemList": [
-                {
-                              "id": "01",
-                              "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/rahul-gandhi_15374c16b0368e44bffb96fe2bc436ec.jpeg",
-                              "title": "Rahul Gandhi: राहुल बोले- जम्मू-कश्मीर के लोगों का शुक्रिया, हरियाणा के अप्रत्याशित नतीजे का विश्लेषण कर रहे",
-                              "category": "चुनाव",
-                              "city": "India News",
-                              "web_url": "https://www.amarujala.com/india-news/rahul-gandhi-said-thanks-to-the-people-of-jammu-and-kashmir-analyzing-the-unexpected-result-of-haryana-2024-10-09?src=aamnesaamne&position=2&client=android",
-                },
-                          {
-                              "id": "02",
-                               "image": "https://staticimg.amarujala.com/assets/images/2024/10/09/rahul-gandhi_15374c16b0368e44bffb96fe2bc436ec.jpeg",
-                              "title": "Rahul Gandhi: राहुल बोले- जम्मू-कश्मीर के लोगों का शुक्रिया, हरियाणा के अप्रत्याशित नतीजे का विश्लेषण कर रहे",
-                              "category": "चुनाव",
-                              "city": "India News",
-                              "web_url": "https://www.amarujala.com/india-news/rahul-gandhi-said-thanks-to-the-people-of-jammu-and-kashmir-analyzing-the-unexpected-result-of-haryana-2024-10-09?src=aamnesaamne&position=2&client=android",
-                }
-              ]
+              {
+                  "itemList": [
+                      {
+                          "id": "003",
+                          "type": "Text",
+                          "title": "Mumbai: पॉक्सो मामले में बढ़ी एकता कपूर और उनकी मां की मुश्किलें, गुरुवार को मुंबई पुलिस के सामने होंगी पेश",
+                          "sub_title": "India News",
+                          "date": "23 Oct 2024",
+                          "category": "India News",
+                          "category_id": "12",
+                          "image_type": "small",
+                          "web_url":"https://www.amarujala.com/india-news/ekta-kapoor-and-her-mother-s-troubles-increase-in-pocso-case-will-appear-before-mumbai-police-on-thursday-2024-10-23",
+                          "image": "https://staticimg.amarujala.com/assets/images/2024/10/22/pocso-case-gandi-baat-ekta-kapoor-shobha-kapoor-gandi-baat-controversy_66f66c4aaac994cea442c0d99778f989.jpeg?w=160&dpr=2"
+                      },
+                      {
+                          "id": "004",
+                          "type": "Text",
+                          "title": "Jharkhand Elections: झामुमो ने 35 प्रत्याशियों की सूची जारी की, सीएम हेमंत सोरेन इस सीट से लड़ेंगे चुनाव",
+                          "sub_title": "Election",
+                          "date": "23 Oct 2024",
+                          "category": "Election",
+                          "category_id": "12",
+                          "image_type": "small",
+                          "web_url":"https://www.amarujala.com/election/jharkhand-assembly-elections-jmm-candidate-list-hemant-soren-and-other-leaders-seat-detail-in-hindi-2024-10-23", 
+                          "image": "https://staticimg.amarujala.com/assets/images/2024/10/23/hemant-soren_20f127760162485d426e8df258f5ec17.jpeg"
+                      },
+                      {
+                          "id": "005",
+                          "type": "Text",
+                          "title": "Gujarat: अमेरिका भेजने के नाम पर 40 लाख रुपये से ज्यादा की ठगी, वीजा सलाहकार और उसके भाई पर मामला दर्ज",
+                          "sub_title": "India News",
+                          "date": "23 Apr 2024",
+                          "category": "India News",
+                          "category_id": "12",
+                          "image_type": "small",
+                          "web_url":"https://www.amarujala.com/india-news/visa-consultant-and-his-brother-cheated-of-more-than-rs-40-lakh-in-the-name-of-sending-to-america-case-regist-2024-10-23",
+                          
+                          "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/04\/17\/answer-key_6d84b4b046b15bf258f47bccdd2db99d.jpeg"
+                      }
+                  ]
+              },
+              {
+                "id": "006",
+                "type": "Video",
+                "title": "Baba Siddique News: मुंबई पुलिस ने बाबा की सुरक्षा में तैनात सिपाही को किया निलंबित, जानें क्यों।",
+                "sub_title": "India News",
+                "date": "19 Oct 2024",
+                "category": "India News",
+                "category_id": "12",
+                "image_type": "big",
+                "web_url":"https://www.amarujala.com/india-news/ekta-kapoor-and-her-mother-s-troubles-increase-in-pocso-case-will-appear-before-mumbai-police-on-thursday-2024-10-23",
+                          
+                "image": "https://staticimg.amarujala.com/assets/images/2024/10/19/baba-siddique-news-mabii-palsa-na-bb-ka-sarakashha-ma-tanata-sapaha-ka-kaya-nalbta-jana-kaya_a6000443f86d8156d31596cfcb48ea63.jpeg"
             }
           ]
-        },
+      },
         {
           "component_name": "e_paper",
           "component_id": "5",
