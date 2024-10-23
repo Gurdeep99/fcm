@@ -24,89 +24,89 @@ export async function GET(request) {
   // Your API data if authentication succeeds
   const data = {
     home: [
-      // {
-      //   "component_name": "cricket_score",
-      //   "component_id": "10",
-      //   "type": "Text",
-      //   "category_name": "Education",
-      //   "category_id": "13",
-      //   "category_icon": "",
-      //   "title": "क्रिकेट कवरेज",
-      //   "match_status": "लाइव",
-      //   "marque": "LSG को जीत के लिए 129 रन, 61 गेंदों में चाहिए : CRR: 8.3",
-      //   "game_date": "April 01",
-      //   "priority": 10,
-      //   "teamScore": [
-      //       {
-      //           "id": "001",
-      //           "team": "1",
-      //           "title": "CSK",
-      //           "image": "https:\/\/i.pinimg.com\/originals\/39\/0f\/c7\/390fc716070ce65f3cc496d84b909812.jpg",
-      //           "score": "210",
-      //           "wicket": "4",
-      //           "over": "20"
-      //       },
-      //       {
-      //           "id": "001",
-      //           "team": "1",
-      //           "title": "RCB",
-      //           "image": "https:\/\/ih1.redbubble.net\/image.4977316900.7120\/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp",
-      //           "score": "190",
-      //           "wicket": "9",
-      //           "over": "11.1"
-      //       }
-      //   ],
-      //   "dataItem": [
-      //       {
-      //           "id": "001",
-      //           "type": "Video",
-      //           "title": "भारत डेटा और एआई उपनिवेशवाद का भय पैदा किए बिना तकनीकी लक्ष्य हासिल कर सकता है",
-      //           "sub_title": "टैकनोलजी खबर",
-      //           "date": "23 Apr 2024",
-      //           "category": "Technology",
-      //           "category_id": "12",
-      //           "image_type": "big",
-      //           "image": "https:\/\/static.toiimg.com\/thumb\/msid-95123042,width-1280,height-720,resizemode-4\/95123042.jpg"
-      //       },
-      //       {
-      //           "itemList": [
-      //               {
-      //                   "id": "002",
-      //                   "type": "Video",
-      //                   "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
-      //                   "sub_title": "टैकनोलजी खबर",
-      //                   "date": "23 Apr 2024",
-      //                   "category": "Technology",
-      //                   "category_id": "12",
-      //                   "image_type": "small",
-      //                   "image": "https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/0A24\/production\/_126769520_gettyimages-1384434751-594x594.jpg"
-      //               },
-      //               {
-      //                   "id": "003",
-      //                   "type": "Video",
-      //                   "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
-      //                   "sub_title": "टैकनोलजी खबर",
-      //                   "date": "23 Apr 2024",
-      //                   "category": "Technology",
-      //                   "category_id": "12",
-      //                   "image_type": "small",
-      //                   "image": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQng-uWIT3-gA0k9fqy-rz_QzYUBYtB6FsIkw&s"
-      //               },
-      //               {
-      //                   "id": "004",
-      //                   "type": "Video",
-      //                   "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-      //                   "sub_title": "टैकनोलजी खबर",
-      //                   "date": "23 Apr 2024",
-      //                   "category": "Technology",
-      //                   "category_id": "12",
-      //                   "image_type": "small",
-      //                   "image": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTRXZAPQiCober8Eu4SJwRhXAuRkE0nB36fyQ&s"
-      //               }
-      //           ]
-      //       }
-      //   ]
-      // },
+      {
+        "component_name": "cricket_score",
+        "component_id": "10",
+        "type": "Text",
+        "category_name": "Education",
+        "category_id": "13",
+        "category_icon": "",
+        "title": "क्रिकेट कवरेज",
+        "match_status": "लाइव",
+        "marque": "LSG को जीत के लिए 129 रन, 61 गेंदों में चाहिए : CRR: 8.3",
+        "game_date": "April 01",
+        "priority": 10,
+        "teamScore": [
+            {
+                "id": "001",
+                "team": "1",
+                "title": "CSK",
+                "image": "https:\/\/i.pinimg.com\/originals\/39\/0f\/c7\/390fc716070ce65f3cc496d84b909812.jpg",
+                "score": "210",
+                "wicket": "4",
+                "over": "20"
+            },
+            {
+                "id": "001",
+                "team": "1",
+                "title": "RCB",
+                "image": "https:\/\/ih1.redbubble.net\/image.4977316900.7120\/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp",
+                "score": "190",
+                "wicket": "9",
+                "over": "11.1"
+            }
+        ],
+        "dataItem": [
+            {
+                "id": "001",
+                "type": "Video",
+                "title": "भारत डेटा और एआई उपनिवेशवाद का भय पैदा किए बिना तकनीकी लक्ष्य हासिल कर सकता है",
+                "sub_title": "टैकनोलजी खबर",
+                "date": "23 Apr 2024",
+                "category": "Technology",
+                "category_id": "12",
+                "image_type": "big",
+                "image": "https:\/\/static.toiimg.com\/thumb\/msid-95123042,width-1280,height-720,resizemode-4\/95123042.jpg"
+            },
+            {
+                "itemList": [
+                    {
+                        "id": "002",
+                        "type": "Video",
+                        "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
+                        "sub_title": "टैकनोलजी खबर",
+                        "date": "23 Apr 2024",
+                        "category": "Technology",
+                        "category_id": "12",
+                        "image_type": "small",
+                        "image": "https:\/\/ichef.bbci.co.uk\/news\/976\/cpsprodpb\/0A24\/production\/_126769520_gettyimages-1384434751-594x594.jpg"
+                    },
+                    {
+                        "id": "003",
+                        "type": "Video",
+                        "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
+                        "sub_title": "टैकनोलजी खबर",
+                        "date": "23 Apr 2024",
+                        "category": "Technology",
+                        "category_id": "12",
+                        "image_type": "small",
+                        "image": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQng-uWIT3-gA0k9fqy-rz_QzYUBYtB6FsIkw&s"
+                    },
+                    {
+                        "id": "004",
+                        "type": "Video",
+                        "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
+                        "sub_title": "टैकनोलजी खबर",
+                        "date": "23 Apr 2024",
+                        "category": "Technology",
+                        "category_id": "12",
+                        "image_type": "small",
+                        "image": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTRXZAPQiCober8Eu4SJwRhXAuRkE0nB36fyQ&s"
+                    }
+                ]
+            }
+        ]
+      },
       {
         component_name: "text_story",
         component_id: "6",
