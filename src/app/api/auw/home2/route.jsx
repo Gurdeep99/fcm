@@ -229,72 +229,120 @@ export async function GET(request) {
       },
         ]
       },{
-        "component_name": "top_stories",
-        "component_id": "3",
-        "type": "Video",
-        "category_name": "Top Stories",
-        "category_id": "12",
-        "category_icon": "",
-        "title": "स्टोरी",
-        "priority": 3,
-        "dataItem": [
-            {
-                "id": "1",
-                "type": "story",
-                "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
-                "sub_title": "बॉलीवुड खबर",
-                "date": "23 Apr 2024",
-                "category": "बॉलीवुड",
-                "category_id": "5",
-                "image_type": "small",
-                "image": "https://userimg.amarujala.com/2024/7/22/669df90aaeafd.jpeg"
-            },
-            {
-                "id": "2",
-                "type": "Video",
-                "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
-                "sub_title": "तकनीकी खबर",
-                "date": "23 Apr 2024",
-                "category": "तकनीकी",
-                "category_id": "9",
-                "image_type": "small",
-                "image": "https://userimg.amarujala.com/2019/4/23/5cbefc562281d.jpeg"
-            },
-            {
-                "id": "3",
-                "type": "Story",
-                "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-                "sub_title": "तकनीकी खबर",
-                "date": "23 Apr 2024",
-                "category": "तकनीकी",
-                "category_id": "1",
-                "image_type": "small",
-                "image": "https://userimg.amarujala.com/2020/5/30/5ed1e68cc87eb.jpeg"
-            },
-            {
-                "id": "4",
-                "type": "Story",
-                "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-                "sub_title": "तकनीकी खबर",
-                "date": "23 Apr 2024",
-                "category": "तकनीकी",
-                "category_id": "1",
-                "image_type": "small",
-                "image": "https://userimg.amarujala.com/2022/1/18/61e6cc2989b19.jpg"
-            },
-            {
-                "id": "5",
-                "type": "Story",
-                "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-                "sub_title": "तकनीकी खबर",
-                "date": "23 Apr 2024",
-                "category": "तकनीकी",
-                "category_id": "1",
-                "image_type": "small",
-                "image": "https://userimg.amarujala.com/2020/10/14/5f868c0ebedc5.jpeg"
-            }
-        ]
-    }
+        component_name: "short_video",
+        component_id: "8",
+        type: "Text",
+        category_name: "Short Videos",
+        category_id: "13",
+        category_icon: "",
+        title: "वेब स्टोरीज",
+        priority: 8,
+      },
+      {
+        component_name: "text_story",
+        component_id: "6",
+        type: "Text",
+        category_name: "technology",
+        category_id: "13",
+        category_icon: "",
+        title: "एतिहासिक महाकथाए",
+        priority: 6,
+        dataItem: [
+         
+          {
+            itemList: [
+              {
+                id: "003",
+                type: "Text",
+                isLive: false,
+                title:
+                  "Mumbai: पॉक्सो मामले में बढ़ी एकता कपूर और उनकी मां की मुश्किलें, गुरुवार को मुंबई पुलिस के सामने होंगी पेश",
+                sub_title: "India News",
+                date: "23 Oct 2024",
+                category: "India News",
+                category_id: "12",
+                image_type: "small",
+                isPremium: false,
+                web_url:
+                  "https://www.amarujala.com/india-news/ekta-kapoor-and-her-mother-s-troubles-increase-in-pocso-case-will-appear-before-mumbai-police-on-thursday-2024-10-23",
+                image:
+                  "https://staticimg.amarujala.com/assets/images/2024/10/22/pocso-case-gandi-baat-ekta-kapoor-shobha-kapoor-gandi-baat-controversy_66f66c4aaac994cea442c0d99778f989.jpeg?w=160&dpr=2",
+              },
+              {
+                id: "004",
+                type: "Text",
+                isLive: true,
+                title:
+                  "Jharkhand Elections: झामुमो ने 35 प्रत्याशियों की सूची जारी की, सीएम हेमंत सोरेन इस सीट से लड़ेंगे चुनाव",
+                sub_title: "Election",
+                date: "23 Oct 2024",
+                category: "Election",
+                category_id: "12",
+                image_type: "small",
+                isPremium: true,
+                web_url:
+                  "https://www.amarujala.com/election/jharkhand-assembly-elections-jmm-candidate-list-hemant-soren-and-other-leaders-seat-detail-in-hindi-2024-10-23",
+                image:
+                  "https://staticimg.amarujala.com/assets/images/2024/10/23/hemant-soren_20f127760162485d426e8df258f5ec17.jpeg",
+              },
+              {
+                id: "005",
+                type: "Text",
+                isLive: false,
+                title:
+                  "HC: 'सरकार की रेवड़ी योजनाओं के खिलाफ याचिका देने वाले शख्स की सुरक्षा पर हो फैसला', पुलिस आयुक्त से हाईकोर्ट",
+                sub_title: "India News",
+                date: "23 Apr 2024",
+                category: "India News",
+                isPremium: true,
+                category_id: "12",
+                image_type: "small",
+                web_url:
+                  "https://www.amarujala.com/india-news/high-court-to-nagpur-top-cop-decide-on-protection-to-petitioner-against-freebie-schemes-of-government-2024-10-23",
+
+                image:
+                  "https://staticimg.amarujala.com/assets/images/2024/04/17/bombay-high-court_bcb18c708a5435b37ad7d52761f7e4cc.jpeg",
+              },
+              {
+                id: "004",
+                type: "Text",
+                isLive: false,
+                title:
+                  "Maharashtra: 'शाम चार बजे आएगी MVA के सभी उम्मीदवारों की लिस्ट', राउत बोले- हम सत्ता पर कब्जा करने जा रहे",
+                sub_title: "India News",
+                date: "23 Oct 2024",
+                category: "India News",
+                category_id: "12",
+                image_type: "small",
+                isPremium: true,
+                web_url:
+                  "https://www.amarujala.com/india-news/maharashtra-election-sanjay-raut-said-mva-seat-sharing-candidate-list-release-today-we-want-to-hit-century-2024-10-23",
+                image:
+                  "https://staticimg.amarujala.com/assets/images/2024/07/18/shavasana-yabta-nata-sajaya-rauta_f34a51778a70f3d7fe4642fd8e670b9f.jpeg",
+              },
+            ],
+          },
+          {
+            id: "004554",
+            headerTitle: "",
+            isLive: false,
+            type: "Video",
+            title:
+              "Kolkata Doctor Case: ममता सरकार ने डॉक्टरों की सुरक्षा के लिए टास्क फोर्स का किया गठन",
+            sub_title: "India News",
+            date: "23 Oct 2024",
+            category: "India News",
+            category_id: "12",
+            isPremium: true,
+            image_type: "big",
+            web_url:
+              "https://www.amarujala.com/video/india-news/kolkata-doctor-case-mamata-government-formed-task-force-for-the-safety-of-doctors-2024-10-23?src=&position=26",
+            image:
+              "https://staticimg.amarujala.com/assets/images/2024/10/23/kolkata-doctor-case_634c516063169c16065f31cda874a6fb.jpeg",
+          },
+          
+        ],
+      }
       // {
       //   "component_name": "e_paper",
       //   "component_id": "5",
