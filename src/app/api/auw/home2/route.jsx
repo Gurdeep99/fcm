@@ -106,7 +106,7 @@ export async function GET(request) {
                 ]
             }
         ]
-    },
+      },
       {
         component_name: "text_story",
         component_id: "6",
@@ -426,7 +426,74 @@ export async function GET(request) {
           },
           
         ],
-      }
+      },
+      {
+        "component_name": "tech_review",
+        "component_id": "4",
+        "type": "Text",
+        "category_name": "Technology",
+        "category_id": "13",
+        "category_icon": "",
+        "title": "वीडियो",
+        "priority": 4,
+        "dataItem": [
+            {
+                "id": "001",
+                "type": "Text",
+                "title": "इस मैलवेयर के जरिए WhatsApp यूजर्स को निशाना बना रहे वियतनाम के हैकर्स, एक गलती पड़ेगी महंगी",
+                "sub_title": "टेक डेस्क",
+                "date": "18 Jul 2024",
+                "category": "Technology",
+                "category_id": "12",
+                "image_type": "slider",
+                "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/07\/18\/whatsapp-e-challan-scam_733f2525b6b4017e2921d1e634f0a67a.jpeg"
+            },
+            {
+                "id": "002",
+                "type": "Text",
+                "title": "इंस्टाग्राम पर रील बनाने वालों की आई मौज, नए फीचर से होगा जबरदस्त फायदा",
+                "sub_title": "टेक डेस्क",
+                "date": "19 July 2024",
+                "category": "Technology",
+                "category_id": "12",
+                "image_type": "slider",
+                "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/07\/17\/update_4646fd78b8520d3a4819c3fb79fb8be7.jpeg"
+            },
+            {
+                "id": "003",
+                "type": "Text",
+                "title": "WhatsApp में आ रहा नया फीचर, खास लोगों से चैट करना होगा आसान",
+                "sub_title": "टेक डेस",
+                "date": "20 July 2024",
+                "category": "Technology",
+                "category_id": "12",
+                "image_type": "slider",
+                "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/07\/17\/favourites-on-whatsapp_90949c7eb6fa728c55482aa64b18a66a.jpeg"
+            },
+            {
+                "id": "004",
+                "type": "Text",
+                "title": "गूगल कर सकता है बड़ा एलान, एक साल के लिए फ्री में मिलेगा Gemini एडवांस का एक्सेस",
+                "sub_title": "टेक डेस",
+                "date": "21 July 2024",
+                "category": "Technology",
+                "category_id": "12",
+                "image_type": "slider",
+                "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/04\/11\/google-gemini-ai_d9939a90ff9c3ac42b07c715dfe4e462.jpeg"
+            },
+            {
+                "id": "005",
+                "type": "Text",
+                "title": "एजीआर बकाए से संबंधित टेलीकॉम फर्म की दलीलों को शीर्ष अदालत ने किया नोट, जानें क्या है मामला",
+                "sub_title": "टेक डेस",
+                "date": "22 July 2024",
+                "category": "Technology",
+                "category_id": "12",
+                "image_type": "slider",
+                "image": "https:\/\/staticimg.amarujala.com\/assets\/images\/2024\/07\/15\/agr-dues_ddd1937cdb80039d970a28b63e01915a.jpeg"
+            }
+        ]
+      },
       // {
       //   "component_name": "e_paper",
       //   "component_id": "5",
