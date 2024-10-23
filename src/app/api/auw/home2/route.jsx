@@ -177,7 +177,15 @@ export async function GET(request) {
       {
         component_name: "text_story",
         component_id: "6",
-        id: "007",
+        type: "Text",
+        category_name: "technology",
+        category_id: "13",
+        category_icon: "",
+        title: "एतिहासिक महाकथाए",
+        priority: 6,
+        dataItem: [
+      {
+        id: "0090",
         headerTitle: "",
         type: "Video",
         isLive: false,
@@ -190,7 +198,9 @@ export async function GET(request) {
         isPremium: false,
         web_url:"https://www.amarujala.com/india-news/wayanad-lok-sabha-bye-election-congress-leader-priyanka-gandhi-nomination-news-in-hindi-2024-10-23",
         image:"https://staticimg.amarujala.com/assets/images/2024/10/23/priyanka-gandhi-vadra_f9092f5a750b50c9075267d8f5473193.jpeg",
-      },
+      }
+        ]
+      }
       // {
       //   "component_name": "e_paper",
       //   "component_id": "5",
