@@ -55,7 +55,7 @@ export async function GET(request) {
                 "date": "23 Oct 2024",
                 "category": "India News",
                 "category_id": "12",
-                "isPremium":false,
+                "isPremium":true,
                 "image_type": "big",
                 "web_url":"https://www.amarujala.com/video/india-news/kolkata-doctor-case-mamata-government-formed-task-force-for-the-safety-of-doctors-2024-10-23?src=&position=26",
                 "image": "https://staticimg.amarujala.com/assets/images/2024/10/23/kolkata-doctor-case_634c516063169c16065f31cda874a6fb.jpeg"
@@ -84,7 +84,7 @@ export async function GET(request) {
                           "category": "Election",
                           "category_id": "12",
                           "image_type": "small",
-                          "isPremium":false,
+                          "isPremium":true,
                           "web_url":"https://www.amarujala.com/election/jharkhand-assembly-elections-jmm-candidate-list-hemant-soren-and-other-leaders-seat-detail-in-hindi-2024-10-23", 
                           "image": "https://staticimg.amarujala.com/assets/images/2024/10/23/hemant-soren_20f127760162485d426e8df258f5ec17.jpeg"
                       },
@@ -95,7 +95,7 @@ export async function GET(request) {
                           "sub_title": "India News",
                           "date": "23 Apr 2024",
                           "category": "India News",
-                          "isPremium":false,
+                          "isPremium":true,
                           "category_id": "12",
                           "image_type": "small",
                           "web_url":"https://www.amarujala.com/india-news/visa-consultant-and-his-brother-cheated-of-more-than-rs-40-lakh-in-the-name-of-sending-to-america-case-regist-2024-10-23",
