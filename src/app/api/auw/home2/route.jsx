@@ -125,7 +125,21 @@ export async function GET(request) {
                 "isPremium":false,
                 "web_url":"https://www.amarujala.com/india-news/ekta-kapoor-and-her-mother-s-troubles-increase-in-pocso-case-will-appear-before-mumbai-police-on-thursday-2024-10-23",         
                 "image": "https://staticimg.amarujala.com/assets/images/2024/10/19/baba-siddique-news-mabii-palsa-na-bb-ka-sarakashha-ma-tanata-sapaha-ka-kaya-nalbta-jana-kaya_a6000443f86d8156d31596cfcb48ea63.jpeg"
-            }
+            },{
+              "id": "007",
+              "headerTitle":"",
+              "type": "Video",
+              "isLive":false,
+              "title": "Jharkhand Assembly Election 2024: बिहार उप चुनाव के लिए NDA और 'INDIA' ने सीट शेयरिंग फाइनल किया।",
+              "sub_title": "India News",
+              "date": "19 Oct 2024",
+              "category": "India News",
+              "category_id": "12",
+              "image_type": "big",
+              "isPremium":false,
+              "web_url":"https://www.amarujala.com/video/india-news/jharkhand-assembly-election-2024-nda-and-india-finalize-seat-sharing-for-bihar-by-election-2024-10-19",         
+              "image": "https://staticimg.amarujala.com/assets/images/2024/10/19/jharkhand-assembly-election-2024-bhara-upa-canava-ka-le-nda-oura-india-na-sata-shayaraga-fainal-kaya_fc3a17e08133761f4324fb43140d9b06.jpeg"
+          }
           ]
       },
         // {
