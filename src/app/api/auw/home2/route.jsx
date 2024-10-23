@@ -212,7 +212,21 @@ export async function GET(request) {
         isPremium: false,
         web_url:"https://www.amarujala.com/photo-gallery/entertainment/urmila-matondkar-made-a-rare-appearance-in-event-without-wedding-ring-amid-reports-of-divorce-2024-10-22",
         image:"https://staticimg.amarujala.com/assets/images/2024/10/22/uramal-matadakara_cd6c82ea516ce520f5b2c7f71ca09c2a.jpeg",
-      }
+      },{
+        id: "0092",
+        headerTitle: "",
+        isLive: false,
+        type: "Video",
+        title:"Israel Iran War: PM नेतन्याहू ने ईरान पर हमले का ब्लू प्रिंट तैयार किया,इस बार किसी को कुछ नहीं पता",
+        sub_title: "इंडिअन न्यूज़",
+        date: "23 Oct 2024",
+        category: "India News",
+        category_id: "12",
+        image_type: "big",
+        isPremium: false,
+        web_url: "https://www.amarujala.com/video/india-news/israel-iran-war-pm-netanyahu-prepared-a-blue-print-of-attack-on-iran-this-time-no-one-knows-anything-2024-10-22",
+        image:"https://staticimg.amarujala.com/assets/images/2024/10/22/israel-iran-war-pm-natanayaha-na-iirana-para-hamal-ka-bl-parata-tayara-kayaisa-bra-kasa-ka-kachha-naha-pata_b0eab4a72e7658dc7b733fa97dcb3d6c.jpeg",
+      },
         ]
       }
       // {
