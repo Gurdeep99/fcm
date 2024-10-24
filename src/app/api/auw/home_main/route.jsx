@@ -25,6 +25,13 @@ export async function GET(request) {
   const data = {
     home: [
       {
+        component_name: "webview",
+        component_id: "1",
+        id: "001",
+        web_url: "https://spiderstage.amarujala.com/election-live-results-widget?client=dailyhunt?client=android",
+      
+      },
+      {
         component_name: "story",
         component_id: "6",
         id: "001",
