@@ -29,67 +29,69 @@ export async function GET(request) {
     },
     "feed": [
       {
-        "component_name": "video_story",
-        "component_id": "2",
+        "component_name": "story",
+        "id": "001",
         "type": "Video",
-        "category_name": "Technology",
+        "title": "भारत डेटा और एआई उपनिवेशवाद का भय पैदा किए बिना तकनीकी लक्ष्य हासिल कर सकता है",
+        "sub_title": "टैकनोलजी खबर",
+        "date": "23 Apr 2024",
+        "category": "Technology",
         "category_id": "12",
-        "category_icon": "",
-        "icon": "EducationIcon",
-        "title": "टैकनोलजी",
-        "priority": 2,
-        "dataItem": [
-          {
-            "id": "001",
-            "type": "Video",
-            "title": "भारत डेटा और एआई उपनिवेशवाद का भय पैदा किए बिना तकनीकी लक्ष्य हासिल कर सकता है",
-            "sub_title": "टैकनोलजी खबर",
-            "date": "23 Apr 2024",
-            "category": "Technology",
-            "category_id": "12",
-            "image_type": "big",
-            "image": "https://staticimg.amarujala.com/assets/images/2024/07/08/ai_5b09a9da92683f13c3d02d2d729aca22.jpeg"
-          },
-          {
-            "itemList": [
-              {
-                "id": "002",
-                "type": "Video",
-                "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
-                "sub_title": "टैकनोलजी खबर",
-                "date": "23 Apr 2024",
-                "category": "Technology",
-                "category_id": "12",
-                "image_type": "small",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/04/14/whatsapp_78050575dc02ba95487e3192c6498f79.jpeg"
-              },
-              {
-                "id": "003",
-                "type": "Video",
-                "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
-                "sub_title": "टैकनोलजी खबर",
-                "date": "23 Apr 2024",
-                "category": "Technology",
-                "category_id": "12",
-                "image_type": "small",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/05/16/use-of-ai-in-office_139f34ed8f913b03f65d8d0e16cfd43d.jpeg"
-              },
-              {
-                "id": "004",
-                "type": "Video",
-                "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-                "sub_title": "टैकनोलजी खबर",
-                "date": "23 Apr 2024",
-                "category": "Technology",
-                "category_id": "12",
-                "image_type": "small",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/07/08/ai_5b09a9da92683f13c3d02d2d729aca22.jpeg"
-              }
-            ]
-          }
-        ]
+        "image_type": "big",
+        "headerTitle": "",
+        "isLive": false,
+        "isPremium": false,
+        "web_url": "https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+        "image": "https://staticimg.amarujala.com/assets/images/2024/07/08/ai_5b09a9da92683f13c3d02d2d729aca22.jpeg"
       },
-    
+      {
+        "component_name": "story",
+        "id": "002",
+        "type": "Video",
+        "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
+        "sub_title": "टैकनोलजी खबर",
+        "date": "23 Apr 2024",
+        "category": "Technology",
+        "category_id": "12",
+        "image_type": "small",
+        "headerTitle": "",
+        "isLive": false,
+        "isPremium": false,
+        "web_url": "https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+        "image": "https://staticimg.amarujala.com/assets/images/2024/04/14/whatsapp_78050575dc02ba95487e3192c6498f79.jpeg"
+      },
+      {
+        "component_name": "story",
+        "id": "003",
+        "type": "Video",
+        "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
+        "sub_title": "टैकनोलजी खबर",
+        "date": "23 Apr 2024",
+        "category": "Technology",
+        "category_id": "12",
+        "image_type": "small",
+        "headerTitle": "",
+        "isLive": false,
+        "isPremium": false,
+        "web_url": "https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+        "image": "https://staticimg.amarujala.com/assets/images/2024/05/16/use-of-ai-in-office_139f34ed8f913b03f65d8d0e16cfd43d.jpeg"
+      },
+      {
+        "component_name": "story",
+        "id": "004",
+        "type": "Video",
+        "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
+        "sub_title": "टैकनोलजी खबर",
+        "date": "23 Apr 2024",
+        "category": "Technology",
+        "category_id": "12",
+        "image_type": "small",
+        "headerTitle": "",
+        "isLive": false,
+        "isPremium": false,
+        "web_url": "https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+        "image": "https://staticimg.amarujala.com/assets/images/2024/07/08/ai_5b09a9da92683f13c3d02d2d729aca22.jpeg"
+      },
       {
         "component_name": "photo_story",
         "component_id": "8",
@@ -126,72 +128,6 @@ export async function GET(request) {
         ]
       },
       {
-        "component_name": "top_stories",
-        "component_id": "3",
-        "type": "Video",
-        "category_name": "Top Stories",
-        "category_id": "12",
-        "category_icon": "",
-        "title": "टॉप स्टोरीजी",
-        "dataItem": [
-          {
-            "id": "1",
-            "type": "story",
-            "title": "घरेलू इंडस ऐपस्टोर डिवाइस में पहले से इंस्टॉल आ सकता है, एचपीई, डैनफॉस ग्रीन डेटा सेंटर लाएंगे, और भी बहुत कुछ",
-            "sub_title": "बॉलीवुड खबर",
-            "date": "23 Apr 2024",
-            "category": "बॉलीवुड",
-            "category_id": "5",
-            "image_type": "small",
-            "image": "https://userimg.amarujala.com/2024/7/22/669df90aaeafd.jpeg"
-          },
-          {
-            "id": "2",
-            "type": "Video",
-            "title": "अमेज़न बातचीत के लिए AI-संचालित एलेक्सा सेवा के लिए मासिक सदस्यता पर विचार कर रहा है",
-            "sub_title": "तकनीकी खबर",
-            "date": "23 Apr 2024",
-            "category": "तकनीकी",
-            "category_id": "9",
-            "image_type": "small",
-            "image": "https://userimg.amarujala.com/2019/4/23/5cbefc562281d.jpeg"
-          },
-          {
-            "id": "3",
-            "type": "Story",
-            "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-            "sub_title": "तकनीकी खबर",
-            "date": "23 Apr 2024",
-            "category": "तकनीकी",
-            "category_id": "1",
-            "image_type": "small",
-            "image": "https://userimg.amarujala.com/2020/5/30/5ed1e68cc87eb.jpeg"
-          },
-          {
-            "id": "4",
-            "type": "Story",
-            "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-            "sub_title": "तकनीकी खबर",
-            "date": "23 Apr 2024",
-            "category": "तकनीकी",
-            "category_id": "1",
-            "image_type": "small",
-            "image": "https://userimg.amarujala.com/2022/1/18/61e6cc2989b19.jpg"
-          },
-          {
-            "id": "5",
-            "type": "Story",
-            "title": "पॉकेट एफएम, इलेवनलैब्स ने एआई ऑडियो क्षमता लॉन्च की, रियलमी बड्स एयर 6 प्रो लॉन्च, और भी बहुत कुछ",
-            "sub_title": "तकनीकी खबर",
-            "date": "23 Apr 2024",
-            "category": "तकनीकी",
-            "category_id": "1",
-            "image_type": "small",
-            "image": "https://userimg.amarujala.com/2020/10/14/5f868c0ebedc5.jpeg"
-          }
-        ]
-      },
-      {
         "component_name": "TopHeadlines",
         "component_id": "0",
         "type": "Text",
@@ -216,132 +152,69 @@ export async function GET(request) {
         ]
       },
       {
-        "component_name": "text_story",
-        "component_id": "6",
+        "component_name": "story",
+        "id": "001",
         "type": "Text",
-        "category_name": "technology",
-        "category_id": "13",
-        "category_icon": "",
-        "title": "एतिहासिक महाकथाए",
-        "priority": 6,
-        "dataItem": [
-            {
-                "id": "001",
-                "type": "Text",
-                "title": "मध्य प्रदेश कक्षा 10 और कक्षा 12 बोर्ड के सबसे पहल नतीजे कल, सबसे पहले अमर उजाला पर देखें नतीजे",
-                "sub_title": "शिक्षा खबर",
-                "date": "23 Apr 2024",
-                "category": "Education",
-                "category_id": "12",
-                "image_type": "big",
-                "image": "https://staticimg.amarujala.com/assets/images/2024/04/15/ipu-cet-2024_d28fdabae50cf46050cb13eaad87d48e.jpeg"
-            },
-            {
-                "itemList": [
-                    {
-                        "id": "002",
-                        "type": "Text",
-                        "title": "Rajasthan BSTC Result 2024: कब आएगा राजस्थान बीएसटीसी प्री डीएलएड परीक्षा का रिजल्ट, कहां से करना होगा चेक?",
-                        "sub_title": "शिक्षा खबर",
-                        "date": "23 Apr 2024",
-                        "category": "Education",
-                        "category_id": "12",
-                        "image_type": "small",
-                        "image": "https://staticimg.amarujala.com/assets/images/2024/04/24/computer-laptop-new_7f06e4e0397dd91dcf81c804f774a455.jpeg"
-                    },
-                    {
-                        "id": "003",
-                        "type": "Text",
-                        "title": "NIMCET 2024: निमसेट काउंसलिंग के पहले राउंड का सीट आवंटन परिणाम जारी, देखें महत्वपूर्ण तिथियों की लिस्ट",
-                        "sub_title": "शिक्षा खबर",
-                        "date": "23 Apr 2024",
-                        "category": "Education",
-                        "category_id": "12",
-                        "image_type": "small",
-                        "image": "https://staticimg.amarujala.com/assets/images/2024/04/26/nimcet-2024_d93aedf814105ada5b83938b4b063705.jpeg"
-                    },
-                    {
-                        "id": "004",
-                        "type": "Text",
-                        "title": "CUET UG Answer Key 2024: सीयूईटी यूजी उत्तर कुंजी के खिलाफ आज शाम पांच बजे तक दर्ज कराएं आपत्ति, ये रहा लिंक",
-                        "sub_title": "शिक्षा खबर",
-                        "date": "23 Apr 2024",
-                        "category": "Education",
-                        "category_id": "12",
-                        "image_type": "small",
-                        "image": "https://staticimg.amarujala.com/assets/images/2024/04/17/answer-key_6d84b4b046b15bf258f47bccdd2db99d.jpeg"
-                    }
-                ]
-            }
-        ]
-    },
+        "title": "मध्य प्रदेश कक्षा 10 और कक्षा 12 बोर्ड के सबसे पहल नतीजे कल, सबसे पहले अमर उजाला पर देखें नतीजे",
+        "sub_title": "शिक्षा खबर",
+        "date": "23 Apr 2024",
+        "category": "Education",
+        "category_id": "12",
+        "image_type": "big",
+        "headerTitle": "",
+        "isLive": false,
+        "isPremium": false,
+        "web_url": "https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+        "image": "https://staticimg.amarujala.com/assets/images/2024/04/15/ipu-cet-2024_d28fdabae50cf46050cb13eaad87d48e.jpeg"
+      },
       {
-        "component_name": "tech_review",
-        "component_id": "4",
+        "component_name": "story",
+        "id": "002",
         "type": "Text",
-        "category_name": "Technology",
-        "category_id": "13",
-        "category_icon": "",
-        "title": "टेक रिव्यू",
-        "dataItem": [
-          {
-            "id": "001",
-            "type": "Text",
-            "title": "इस मैलवेयर के जरिए WhatsApp यूजर्स को निशाना बना रहे वियतनाम के हैकर्स, एक गलती पड़ेगी महंगी",
-            "sub_title": "टेक डेस्क",
-            "date": "18 Jul 2024",
-            "category": "Technology",
-            "category_id": "12",
-            "image_type": "slider",
-            "image": "https://staticimg.amarujala.com/assets/images/2024/07/18/whatsapp-e-challan-scam_733f2525b6b4017e2921d1e634f0a67a.jpeg"
-          },
-          {
-            "id": "002",
-            "type": "Text",
-            "title": "इंस्टाग्राम पर रील बनाने वालों की आई मौज, नए फीचर से होगा जबरदस्त फायदा",
-            "sub_title": "टेक डेस्क",
-            "date": "19 July 2024",
-            "category": "Technology",
-            "category_id": "12",
-            "image_type": "slider",
-            "image": "https://staticimg.amarujala.com/assets/images/2024/07/17/update_4646fd78b8520d3a4819c3fb79fb8be7.jpeg"
-          },
-          {
-            "id": "003",
-            "type": "Text",
-            "title": "WhatsApp में आ रहा नया फीचर, खास लोगों से चैट करना होगा आसान",
-            "sub_title": "टेक डेस",
-            "date": "20 July 2024",
-            "category": "Technology",
-            "category_id": "12",
-            "image_type": "slider",
-            "image": "https://staticimg.amarujala.com/assets/images/2024/07/17/favourites-on-whatsapp_90949c7eb6fa728c55482aa64b18a66a.jpeg"
-          },
-          {
-            "id": "004",
-            "type": "Text",
-            "title": "गूगल कर सकता है बड़ा एलान, एक साल के लिए फ्री में मिलेगा Gemini एडवांस का एक्सेस",
-            "sub_title": "टेक डेस",
-            "date": "21 July 2024",
-            "category": "Technology",
-            "category_id": "12",
-            "image_type": "slider",
-            "image": "https://staticimg.amarujala.com/assets/images/2024/04/11/google-gemini-ai_d9939a90ff9c3ac42b07c715dfe4e462.jpeg"
-          },
-          {
-            "id": "005",
-            "type": "Text",
-            "title": "एजीआर बकाए से संबंधित टेलीकॉम फर्म की दलीलों को शीर्ष अदालत ने किया नोट, जानें क्या है मामला",
-            "sub_title": "टेक डेस",
-            "date": "22 July 2024",
-            "category": "Technology",
-            "category_id": "12",
-            "image_type": "slider",
-            "image": "https://staticimg.amarujala.com/assets/images/2024/07/15/agr-dues_ddd1937cdb80039d970a28b63e01915a.jpeg"
-          }
-        ]
+        "title": "Rajasthan BSTC Result 2024: कब आएगा राजस्थान बीएसटीसी प्री डीएलएड परीक्षा का रिजल्ट, कहां से करना होगा चेक?",
+        "sub_title": "शिक्षा खबर",
+        "date": "23 Apr 2024",
+        "category": "Education",
+        "category_id": "12",
+        "image_type": "small",
+        "headerTitle": "",
+        "isLive": false,
+        "isPremium": false,
+        "web_url": "https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+        "image": "https://staticimg.amarujala.com/assets/images/2024/04/24/computer-laptop-new_7f06e4e0397dd91dcf81c804f774a455.jpeg"
+      },
+      {
+        "component_name": "story",
+        "id": "003",
+        "type": "Text",
+        "title": "NIMCET 2024: निमसेट काउंसलिंग के पहले राउंड का सीट आवंटन परिणाम जारी, देखें महत्वपूर्ण तिथियों की लिस्ट",
+        "sub_title": "शिक्षा खबर",
+        "date": "23 Apr 2024",
+        "category": "Education",
+        "category_id": "12",
+        "image_type": "small",
+        "headerTitle": "",
+        "isLive": false,
+        "isPremium": false,
+        "web_url": "https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+        "image": "https://staticimg.amarujala.com/assets/images/2024/04/26/nimcet-2024_d93aedf814105ada5b83938b4b063705.jpeg"
+      },
+      {
+        "component_name": "story",
+        "id": "004",
+        "type": "Text",
+        "title": "CUET UG Answer Key 2024: सीयूईटी यूजी उत्तर कुंजी के खिलाफ आज शाम पांच बजे तक दर्ज कराएं आपत्ति, ये रहा लिंक",
+        "sub_title": "शिक्षा खबर",
+        "date": "23 Apr 2024",
+        "category": "Education",
+        "category_id": "12",
+        "image_type": "small",
+        "headerTitle": "",
+        "isLive": false,
+        "isPremium": false,
+        "web_url": "https://amarujala.com/india-news/karnataka-bengaluru-building-collapsed-death-count-increase-to-five-deputy-cm-warn-for-illegal-construction-2024-10-23",
+        "image": "https://staticimg.amarujala.com/assets/images/2024/04/17/answer-key_6d84b4b046b15bf258f47bccdd2db99d.jpeg"
       }
-
     ],
     "metadata": {
       "id": "668f9d84acd3cb34a86477ad",
