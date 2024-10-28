@@ -303,6 +303,7 @@ export async function GET(request) {
         
       },
       {
+        "component_name": "video",
         "id": "67192e5d736352519a05897c",
         "tags": [
             ""
@@ -331,6 +332,7 @@ export async function GET(request) {
         "video_url": "https://d2570yern32wrv.cloudfront.net/uploaded_videos/hyperlocal_videos/2024/10/23/1T3EQyD.m3u8"
     },
     {
+      "component_name": "video",
       "id": "671922533f1bc38b08003cc7",
       "tags": [
           ""
