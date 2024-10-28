@@ -302,6 +302,63 @@ export async function GET(request) {
         image: "https://staticimg.amarujala.com/assets/images/2024/10/23/kolkata-doctor-case_634c516063169c16065f31cda874a6fb.jpeg",
         
       },
+      {
+        "id": "67192e5d736352519a05897c",
+        "tags": [
+            ""
+        ],
+        "title_hn": "VIDEO : विरासत मेले में चला हिंदुस्तानी गायन का जादू, अनोल चटर्जी के गीतों ने बांधा समां",
+        "youtube_id": "1T3EQyD",
+        "video_type": "auw_video",
+        "is_native_player": true,
+        "autoplay": true,
+        "category": {
+            "_id": "569ceb6dfdb34fe5330355ee",
+            "description": "City and states",
+            "full_slug": "city-and-states",
+            "is_featured": "no",
+            "parent_id": "569ceb6dfdb34fe5330355ee",
+            "slug": "city-and-states",
+            "status": "enable",
+            "title": "City & states",
+            "title_hn": "शहर और राज्य"
+        },
+        "created_at": "2024-10-23 22:41:57",
+        "updated_at": "2024-10-23 22:41:57",
+        "slug": "video-hindustani-singing-magic-at-virasat-mela-anol-chatterjee-songs-enthralled-the-audience",
+        "image": "https://staticimg.amarujala.com/assets/images/original/default_500.png",
+        "full_slug": "video/dehradun/video-hindustani-singing-magic-at-virasat-mela-anol-chatterjee-songs-enthralled-the-audience",
+        "video_url": "https://d2570yern32wrv.cloudfront.net/uploaded_videos/hyperlocal_videos/2024/10/23/1T3EQyD.m3u8"
+    },
+    {
+      "id": "671922533f1bc38b08003cc7",
+      "tags": [
+          ""
+      ],
+      "title_hn": "Delhi News:यमुना के प्रदूषण मामले पर CM आतिशी ने खोला मोर्चा, लगाया ये गंभीर आरोप!",
+      "youtube_id": "zPNyP73irPw",
+      "video_type": "youtube",
+      "is_native_player": false,
+      "autoplay": true,
+      "category": {
+          "_id": "56a87d4e1126f48f668b4567",
+          "description": "India News",
+          "full_slug": "india-news",
+          "is_featured": "yes",
+          "parent_id": "56a87d4e1126f48f668b4567",
+          "slug": "india-news",
+          "status": "enable",
+          "title": "India News",
+          "title_hn": "देश"
+      },
+      "created_at": "2024-10-23 21:50:35",
+      "updated_at": "2024-10-23 21:50:35",
+      "slug": "delhi-news-cm-atishi-opened-front-on-yamuna-pollution-issue-made-this-serious-allegation-2024-10-23",
+      "image": " https://staticimg.amarujala.com/assets/images/2024/10/23/delhi-news_f09f955e6713f77f88bbce3fe87bf4ca.jpeg",
+      "full_slug": "video/india-news/delhi-news-cm-atishi-opened-front-on-yamuna-pollution-issue-made-this-serious-allegation-2024-10-23",
+      "video_url": "https://www.youtube.com/embed/zPNyP73irPw?rel=0&amp;autoplay=1"
+  },
+   
       
     ],
       
