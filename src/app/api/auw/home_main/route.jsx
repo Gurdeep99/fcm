@@ -25,6 +25,15 @@ export async function GET(request) {
   const data = {
     home: [
       {
+        component_name: "cricket_score",
+        type: "Text",
+        category_name: "क्रिकेट कवरेज",
+        category_id: "13",
+        category_icon: "",
+        title: "क्रिकेट कवरेज",
+        priority: 10,
+      },
+      {
         component_name: "webview",
         component_id: "1",
         id: "001",
@@ -391,15 +400,6 @@ export async function GET(request) {
           "video/india-news/delhi-news-cm-atishi-opened-front-on-yamuna-pollution-issue-made-this-serious-allegation-2024-10-23",
         video_url:
           "https://www.youtube.com/embed/zPNyP73irPw?rel=0&amp;autoplay=1",
-      },
-      {
-        component_name: "cricket_score",
-        type: "Text",
-        category_name: "क्रिकेट कवरेज",
-        category_id: "13",
-        category_icon: "",
-        title: "क्रिकेट कवरेज",
-        priority: 10,
       },
     ],
 
