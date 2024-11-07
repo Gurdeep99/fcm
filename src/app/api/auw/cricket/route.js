@@ -24,12 +24,20 @@ export async function GET(request) {
   const data = {
     home: [
       {
+        component_name: "cricket_score",
+        component_id: "1",
+        id: "001",
+        title: "क्रिकेट कवरेज",
+        match_status: "लाइव",
+        marque: "LSG को जीत के लिए 129 रन, 61 गेंदों में चाहिए : CRR: 8.3",
+        game_date: "April 01",
         data: [
           {
             id: "001",
             team: "1",
             title: "CSK",
-            image: "https://i.pinimg.com/originals/39/0f/c7/390fc716070ce65f3cc496d84b909812.jpg",
+            image:
+              "https://i.pinimg.com/originals/39/0f/c7/390fc716070ce65f3cc496d84b909812.jpg",
             score: "210",
             wicket: "4",
             over: "20",
@@ -38,7 +46,8 @@ export async function GET(request) {
             id: "002",
             team: "1",
             title: "RCB",
-            image: "https://ih1.redbubble.net/image.4977316900.7120/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp",
+            image:
+              "https://ih1.redbubble.net/image.4977316900.7120/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp",
             score: "190",
             wicket: "9",
             over: "11.1",
