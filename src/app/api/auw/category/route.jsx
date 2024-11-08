@@ -46,6 +46,24 @@ export async function GET(request) {
           },
           {
             "_id": {
+              "$oid": "65f972b8700fa16f32047d79"
+            },
+            "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
+            "titles": "Shabd Khoj",
+            "link": "/india-news?src=mainmenu",
+            "status": "enable",
+            "type": "same-page",
+            "text_color": "#000000",
+            "bg_color": "#000000",
+            "others": "",
+            "sub_menu_slug": "",
+            "label": "",
+            "title_hn": "शब्द खोज",
+            "api": "https://fcm.gurdeep.net/api/auw/categorys/shabd-khoj",
+            "priority": 0
+          },
+          {
+            "_id": {
               "$oid": "65f972b8700fa16f32047d7a"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
