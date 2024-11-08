@@ -28,7 +28,7 @@ export async function GET(request) {
         "items": [
           {
             "_id": {
-              "$oid": "65f972b8700fa16f32047d79"
+              "$oid": "65f972b8700fa16f32947d79"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
             "titles": "देश",
