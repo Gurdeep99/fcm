@@ -49,7 +49,7 @@ export async function GET(request) {
               "$oid": "65f972b8700fa16f32047d79"
             },
             "image": "https://spidercmsstage.amarujala.com/assets/images/250x250/default_500.png",
-            "titles": "Shabd Khoj",
+            "titles": "शब्द खोज",
             "link": "/india-news?src=mainmenu",
             "status": "enable",
             "type": "same-page",
