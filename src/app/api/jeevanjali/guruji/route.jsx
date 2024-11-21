@@ -21,7 +21,7 @@ export async function GET(request) {
     }
   
     // Your API data if authentication succeeds
-    const data = {
+    const data = 
     [
   {
     "id": "1",
@@ -223,9 +223,7 @@ export async function GET(request) {
     "topVoices": true,
     "isLive": true
   }
-]
-
-    };
+];
   
     return new Response(JSON.stringify(data), {
       status: 200,
