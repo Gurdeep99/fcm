@@ -1,8 +1,8 @@
 import { MongoClient } from 'mongodb';
 
-// MongoDB URI and database name
-const uri = process.env.MONGODB_URI; // Make sure to set this in your .env file
-const dbName = 'test';  // Your database name
+// MongoDB URI from .env.local
+const uri = process.env.MONGODB_URI;
+const dbName = 'audios';  // Update to your actual database name if different
 
 // Connect to MongoDB
 async function connectToDatabase() {
@@ -16,7 +16,7 @@ async function connectToDatabase() {
 }
 
 export default async function handler(req, res) {
-  if (req.method === 'GET' || req.method === 'get') {
+  if (req.method === 'GET') {
     const { skip = 0, limit = 5 } = req.query;  // Default skip to 0 and limit to 5
     
     try {
