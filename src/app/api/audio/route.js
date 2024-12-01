@@ -1,7 +1,7 @@
 // src/app/api/audio/route.js
 import { MongoClient } from 'mongodb';
 
-const uri = process.env.MONGODB_URI;
+const uri = 'mongodb+srv://auw:Hello@auw.6yeb1.mongodb.net/?retryWrites=true&w=majority&appName=AUW';
 
 async function getAudioData(skip, limit) {
   const client = new MongoClient(uri);
@@ -14,6 +14,7 @@ async function getAudioData(skip, limit) {
       .find({})
       .skip(skip) // Skip the number of documents
       .limit(limit) // Limit the number of documents returned
+      .project({ __v: 0 }) // Exclude __v field
       .toArray();
 
     return audioData;
