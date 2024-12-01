@@ -2,7 +2,7 @@ import { MongoClient } from 'mongodb';
 
 // MongoDB URI and database name
 const uri = process.env.MONGODB_URI; // Make sure to set this in your .env file
-const dbName = 'AUW';  // Your database name
+const dbName = 'test';  // Your database name
 
 // Connect to MongoDB
 async function connectToDatabase() {
