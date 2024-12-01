@@ -1,7 +1,7 @@
 // src/app/api/audio/route.js
 import { MongoClient } from 'mongodb';
 
-const uri = 'mongodb+srv://auw:Hello@auw.6yeb1.mongodb.net/?retryWrites=true&w=majority&appName=AUW';
+const uri = process.env.MONGODB_URI;
 
 async function getAudioData(skip, limit) {
   const client = new MongoClient(uri);
