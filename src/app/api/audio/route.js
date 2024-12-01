@@ -16,7 +16,7 @@ async function connectToDatabase() {
 }
 
 export default async function handler(req, res) {
-  if (req.method === 'GET') {
+  if (req.method === 'GET' || req.method === 'get') {
     const { skip = 0, limit = 5 } = req.query;  // Default skip to 0 and limit to 5
     
     try {
