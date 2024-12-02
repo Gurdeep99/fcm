@@ -71,35 +71,6 @@ export async function GET(request) {
                 "bookmarked": false
             }
         },
-        {
-            "position": 2,
-            "componentId": 108,
-            "content": {
-                "id": "674dad49bc755abecc07c4f7",
-                "propertyId": null,
-                "type": "video",
-                "dateModified": "2024-12-02T12:51:21.25",
-                "categories": [
-                    10218
-                ],
-                "tags": [],
-                "embeddings": null,
-                "dataMap": {
-                    "image": "1Ti5OSd.0000000.jpg",
-                    "video_duration": "01:31",
-                    "full_slug": "video/uttar-pradesh/azamgarh/video-up-crime-mid-day-meal-in-charge-beaten-headmaster-threatened-to-kill-video-goes-viral-fir",
-                    "is_premium": null,
-                    "video_url": "https://vid.amarujala.com/uploaded_videos/hyperlocal_videos/2024/12/02/1Ti5OSd.m3u8",
-                    "title_hn": "VIDEO : मीड-डे-मील प्रभारी को प्रधानाध्यापक ने पीटा, 15 दिन पूर्व मारने की दी थी धमकी; SP ने दिए कार्रवाई के निर्देश",
-                    "mute": false,
-                    "is_native_player": true,
-                    "youtube_id": "1Ti5OSd",
-                    "autoplay": false,
-                    "video_type": "auw_video"
-                },
-                "bookmarked": false
-            }
-        }
     ]
 };
   
