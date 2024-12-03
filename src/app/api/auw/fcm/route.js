@@ -16,7 +16,7 @@ export default async function handler(req, res) {
   try {
     // Connect to the database
     await client.connect();
-    const db = client.db('yourDatabaseName'); // Replace with your database name
+    const db = client.db('test'); // Replace with your database name
     const collection = db.collection('fcmData');
 
     if (req.method === 'GET') {
