@@ -18,26 +18,51 @@ clientPromise = global._mongoClientPromise;
 
 async function connectToDatabase() {
     const client = await clientPromise;
-    const db = client.db('auw');
+    const db = client.db("auw");
     return { client, db };
 }
 
+const CLIENT_KEY = "0016a264f1c1bc7a0557398d";
+const PROPERTY_KEY = "0128512c3bc7ce464214cfbc";
+const AUTHORIZATION_TOKEN = "Bearer safaxadfsffcaZcvdsds";
+
 export async function POST(req) {
+    // Validate headers
+    const clientKey = req.headers.get("clientkey");
+    const propertyKey = req.headers.get("propertykey");
+    const authorization = req.headers.get("Authorization");
+
+    if (clientKey !== process.env.CLIENT_KEY || propertyKey !== process.env.PROPERTY_KEY || authorization !== process.env.AUTHORIZATION) {
+        return new Response(
+            JSON.stringify({ error: "Unauthorized request" }),
+            {
+                status: 401,
+                headers: { "Content-Type": "application/json" },
+            }
+        );
+    }
+
     const body = await req.json();
     const { user, token } = body;
 
     if (!user || (user !== "a" && user !== "b")) {
-        return new Response(JSON.stringify({ error: "Invalid user parameter" }), {
-            status: 400,
-            headers: { "Content-Type": "application/json" },
-        });
+        return new Response(
+            JSON.stringify({ error: "Invalid user parameter" }),
+            {
+                status: 400,
+                headers: { "Content-Type": "application/json" },
+            }
+        );
     }
 
     if (!token) {
-        return new Response(JSON.stringify({ error: "Token is required" }), {
-            status: 400,
-            headers: { "Content-Type": "application/json" },
-        });
+        return new Response(
+            JSON.stringify({ error: "Token is required" }),
+            {
+                status: 400,
+                headers: { "Content-Type": "application/json" },
+            }
+        );
     }
 
     const { db } = await connectToDatabase();
